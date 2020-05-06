@@ -33,17 +33,17 @@ public class GoA extends SearchAction {
      */
     @Override
     public SearchBasedAgentState execute(SearchBasedAgentState s) {
-        RobotAgentState agentState = (RobotAgentState) s;
+        CoronaTrackerAgentState agentState = (CoronaTrackerAgentState) s;
 
-        if (agentState.getVisitedPositions().contains(RobotAgentState.A)) {
+        if (agentState.getVisitedPositions().contains(CoronaTrackerAgentState.A)) {
             return null;
         }
         ArrayList<String> successors = new ArrayList<String>();
         successors.addAll(agentState.getSuccessors());
         if (successors != null) {
-            int index = successors.indexOf(RobotAgentState.A);
+            int index = successors.indexOf(CoronaTrackerAgentState.A);
             if (index >= 0) {
-                agentState.setPosition(RobotAgentState.A);
+                agentState.setPosition(CoronaTrackerAgentState.A);
 
                 return agentState;
             }

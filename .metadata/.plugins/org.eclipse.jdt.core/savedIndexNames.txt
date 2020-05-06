@@ -1,6 +1,5 @@
-INDEX VERSION 1.131+/media/elias/3088FDCB88FD9018/IA Workspace/.metadata/.plugins/org.eclipse.jdt.core
+INDEX VERSION 1.131+/home/elias/tp1IA/.metadata/.plugins/org.eclipse.jdt.core
 1549911840.index
-2970163063.index
-4040342121.index
-2779982832.index
 3657168666.index
+2970163063.index
+2779982832.index

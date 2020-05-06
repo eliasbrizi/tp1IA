@@ -25,24 +25,6 @@ import frsf.cidisi.faia.state.EnvironmentState;
 
 public class RobotEnvironmentState extends EnvironmentState {
 
-    public static final String A = "A";
-    public static final String B = "B";
-    public static final String C = "C";
-    public static final String D = "D";
-    public static final String E = "E";
-    public static final String F = "F";
-    public static final String G = "G";
-    public static final String H = "H";
-    public static final String I = "I";
-    public static final String J = "J";
-    public static final String K = "K";
-    public static final String L = "L";
-    public static final String M = "M";
-    public static final String N = "N";
-    public static final String O = "O";
-    public static final String P = "P";
-    public static final String Q = "Q";
-
     /**
      * This map has a point of the world (A, B, C, ...) as key, and a collection
      * of successors of that point.
@@ -50,23 +32,21 @@ public class RobotEnvironmentState extends EnvironmentState {
     private HashMap<String, Collection<String>> map;
 
     public static final String[][] POSITIONS = new String[][]{
-        {A, C, G},
-        {B, J, K, O},
-        {C, D, G},
-        {D, C, E},
-        {E, F, H, I, D},
-        {F, E, H, G, Q},
-        {G, C, F, Q},
-        {H, E, F, I, J},
-        {I, E, H, J, L},
-        {J, B, H, I, K},
-        {K, J, N, L},
-        {L, I, K, M},
-        {M, L, N},
-        {N, K, M},
-        {O, B, P},
-        {P, O, Q},
-        {Q, B, F, G, P}
+    	{"I5","J5","I6"},{"I6","I7"},
+    	{"I7","I8","J7"},{"I8","I9"},
+    	{"I9","I10","J9"}, {"I10"}, 
+    	{"J5","K5"}, {"J6","J5","L6"}, 
+    	{"J7","J6","K7"}, {"J8","J7","L8"}, 
+    	{"J9","J8","K9"}, {"J10","J9","L10"}, 
+    	{"K5","K6","L5"}, {"K6","K7","J6"}, 
+    	{"K7","K8","L7"}, {"K8","K9","J8"}, 
+    	{"K9","K10","L9"}, {"K10","J10"}, 
+    	{"L5","M5"}, {"L6","L5","K6"}, 
+    	{"L7","L6","M7"}, {"L8","L7","K8"}, 
+    	{"L9","L8","M9"}, {"L10","L9","K10"}, 
+    	{"M5","M6"}, {"M6","M5","M7","L6"}, 
+    	{"M7","M6","M8"}, {"M8","M7","M9","L8"}, 
+    	{"M9","M8","M10"}
     };
 
     RobotEnvironmentState() {

@@ -25,7 +25,7 @@ public class RobotGoal extends GoalTest {
     @Override
     public boolean isGoalState(AgentState agentState) {
         // Agent reach the goal if it is in B
-        if (((RobotAgentState) agentState).getPosition().equals(RobotAgentState.B)) {
+        if (((CoronaTrackerAgentState) agentState).getPosition().equals(CoronaTrackerAgentState.B)) {
             return true;
         }
         return false;

@@ -23,7 +23,7 @@ import frsf.cidisi.faia.simulator.SearchBasedAgentSimulator;
 public class RobotMain {
 
     public static void main(String[] args) throws PrologConnectorException {
-        RobotAgent agent = new RobotAgent();
+        CoronaTrackerAgent agent = new CoronaTrackerAgent();
 
         RobotEnvironment environment = new RobotEnvironment();
 
