@@ -1,0 +1,10 @@
+package coronaTracker;
+
+public class utility1 {
+
+	public static void main(String[] args) {
+		Utility.acciones();
+
+	}
+
+}

@@ -1,0 +1,48 @@
+package coronaTracker;
+
+import java.util.ArrayList;
+
+import coronaTracker.actions.CoronaTrackerAgentState;
+import coronaTracker.actions.SearchAction;
+import coronaTracker.actions.SearchBasedAgentState;
+
+public class utility {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	private void nodos() {
+		for (char a='A' ; a<'N' ; a++){
+			for (int i=0 ; i<18 ; i++){
+				System.out.println("public static final String " +a + i + " = \"" + a + i +"\";");
+			};
+		};
+	}
+	
+	private void acciones() {
+		for (char a='A' ; a<'N' ; a++){
+			for (int i=0 ; i<18 ; i++){
+				System.out.println("public class GoA extends SearchAction {\n"+
+				    "@Override\n"+
+"				    public SearchBasedAgentState execute(SearchBasedAgentState s) {\n"+
+"				        CoronaTrackerAgentState agentState = (CoronaTrackerAgentState) s;\n"+
+"				        if (agentState.getVisitedPositions().contains(CoronaTrackerAgentState.A)) {\n"+
+"				            return null;\n"+
+"				        }\n"+
+"				        ArrayList<String> successors = new ArrayList<String>();\n"+
+"				        successors.addAll(agentState.getSuccessors());\n"+
+"				        if (successors != null) {\n"+
+"				            int index = successors.indexOf(CoronaTrackerAgentState.A);\n"+
+"				            if (index >= 0) {\n"+
+"				                agentState.setPosition(CoronaTrackerAgentState.A);\n"+
+"				                return agentState;\n"+
+"				            }\n"+
+"				        }\n"+
+"				        return null;\n"+
+"				    }\n");
+			};
+		};
+	}
+
+}
