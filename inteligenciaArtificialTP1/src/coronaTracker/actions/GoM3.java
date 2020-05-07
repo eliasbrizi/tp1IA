@@ -1,8 +1,8 @@
 package coronaTracker.actions;
-import frsf.cidisi.faia.examples.search.robot.RobotAgentState;
+import coronaTracker.CoronaTrackerAgentState;
 import java.util.ArrayList;
-import frsf.cidisi.faia.Agent.search.SearchAction;
-import frsf.cidisi.faia.Agent.search.SearchBasedAgentState;
+import frsf.cidisi.faia.agent.search.SearchAction;
+import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
 import frsf.cidisi.faia.state.AgentState;
 import frsf.cidisi.faia.state.EnvironmentState;
 public class GoM3 extends SearchAction {
