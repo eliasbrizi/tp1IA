@@ -1,4 +1,4 @@
-package coronaTracker.Actions;
+package coronaTracker.actions;
 import frsf.cidisi.faia.examples.search.robot.RobotAgentState;
 import java.util.ArrayList;
 import frsf.cidisi.faia.Agent.search.SearchAction;
@@ -30,7 +30,7 @@ public class GoC15 extends SearchAction {
   }
   @Override
   public Double getCost() {
-      return new Double(0);
+      return new Double(1);
   }
 @Override
   public String toString() {
