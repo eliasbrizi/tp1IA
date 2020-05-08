@@ -35,7 +35,7 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
 
     public CoronaTrackerAgent() {
         // Robot agent goal
-        RobotGoal goal = new RobotGoal();
+        CoronaGoal goal = new CoronaGoal();
 
         // Robot agent state
         CoronaTrackerAgentState agentState = new CoronaTrackerAgentState();

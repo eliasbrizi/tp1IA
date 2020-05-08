@@ -13,7 +13,7 @@ public class GoM17 extends SearchAction {
           return null;
       }
       ArrayList<String> successors = new ArrayList<String>();
-      successors.AddAll(agentState.getSuccessors());
+      successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.M17);
           if (index >= 0) {

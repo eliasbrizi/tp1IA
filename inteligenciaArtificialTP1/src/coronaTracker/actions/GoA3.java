@@ -13,7 +13,7 @@ public class GoA3 extends SearchAction {
           return null;
       }
       ArrayList<String> successors = new ArrayList<String>();
-      successors.AddAll(agentState.getSuccessors());
+      successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.A3);
           if (index >= 0) {

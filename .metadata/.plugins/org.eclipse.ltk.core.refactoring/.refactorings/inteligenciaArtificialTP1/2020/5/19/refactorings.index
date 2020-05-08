@@ -8,3 +8,8 @@
 1588808012936	Delete element
 1588808212800	Delete element
 1588856031135	Delete element
+1588939683520	Delete elements
+1588940596284	Rename type 'RobotEnvironmentState'
+1588940617442	Rename type 'RobotEnvironment'
+1588940669035	Rename type 'RobotGoal'
+1588940757421	Rename type 'RobotMain'

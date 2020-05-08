@@ -13,7 +13,7 @@ public class GoF16 extends SearchAction {
           return null;
       }
       ArrayList<String> successors = new ArrayList<String>();
-      successors.AddAll(agentState.getSuccessors());
+      successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.F16);
           if (index >= 0) {
@@ -30,7 +30,7 @@ public class GoF16 extends SearchAction {
   }
   @Override
   public Double getCost() {
-      return new Double(1);
+      return new Double(2);
   }
 @Override
   public String toString() {
