@@ -1,0 +1,5 @@
+package coronaTracker.Domain;
+
+public class Camino {
+
+}

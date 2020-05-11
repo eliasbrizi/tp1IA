@@ -27,7 +27,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	/**
 	 * node definition
 	 */
-	public static final String A0 = "A0";
 	public static final String A1 = "A1";
 	public static final String A2 = "A2";
 	public static final String A3 = "A3";
@@ -45,7 +44,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String A15 = "A15";
 	public static final String A16 = "A16";
 	public static final String A17 = "A17";
-	public static final String B0 = "B0";
 	public static final String B1 = "B1";
 	public static final String B2 = "B2";
 	public static final String B3 = "B3";
@@ -63,7 +61,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String B15 = "B15";
 	public static final String B16 = "B16";
 	public static final String B17 = "B17";
-	public static final String C0 = "C0";
 	public static final String C1 = "C1";
 	public static final String C2 = "C2";
 	public static final String C3 = "C3";
@@ -81,7 +78,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String C15 = "C15";
 	public static final String C16 = "C16";
 	public static final String C17 = "C17";
-	public static final String D0 = "D0";
 	public static final String D1 = "D1";
 	public static final String D2 = "D2";
 	public static final String D3 = "D3";
@@ -99,7 +95,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String D15 = "D15";
 	public static final String D16 = "D16";
 	public static final String D17 = "D17";
-	public static final String E0 = "E0";
 	public static final String E1 = "E1";
 	public static final String E2 = "E2";
 	public static final String E3 = "E3";
@@ -117,7 +112,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String E15 = "E15";
 	public static final String E16 = "E16";
 	public static final String E17 = "E17";
-	public static final String F0 = "F0";
 	public static final String F1 = "F1";
 	public static final String F2 = "F2";
 	public static final String F3 = "F3";
@@ -135,7 +129,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String F15 = "F15";
 	public static final String F16 = "F16";
 	public static final String F17 = "F17";
-	public static final String G0 = "G0";
 	public static final String G1 = "G1";
 	public static final String G2 = "G2";
 	public static final String G3 = "G3";
@@ -153,7 +146,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String G15 = "G15";
 	public static final String G16 = "G16";
 	public static final String G17 = "G17";
-	public static final String H0 = "H0";
 	public static final String H1 = "H1";
 	public static final String H2 = "H2";
 	public static final String H3 = "H3";
@@ -171,7 +163,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String H15 = "H15";
 	public static final String H16 = "H16";
 	public static final String H17 = "H17";
-	public static final String I0 = "I0";
 	public static final String I1 = "I1";
 	public static final String I2 = "I2";
 	public static final String I3 = "I3";
@@ -189,7 +180,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String I15 = "I15";
 	public static final String I16 = "I16";
 	public static final String I17 = "I17";
-	public static final String J0 = "J0";
 	public static final String J1 = "J1";
 	public static final String J2 = "J2";
 	public static final String J3 = "J3";
@@ -207,7 +197,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String J15 = "J15";
 	public static final String J16 = "J16";
 	public static final String J17 = "J17";
-	public static final String K0 = "K0";
 	public static final String K1 = "K1";
 	public static final String K2 = "K2";
 	public static final String K3 = "K3";
@@ -225,7 +214,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String K15 = "K15";
 	public static final String K16 = "K16";
 	public static final String K17 = "K17";
-	public static final String L0 = "L0";
 	public static final String L1 = "L1";
 	public static final String L2 = "L2";
 	public static final String L3 = "L3";
@@ -243,7 +231,6 @@ public class CoronaEnvironmentState extends EnvironmentState {
 	public static final String L15 = "L15";
 	public static final String L16 = "L16";
 	public static final String L17 = "L17";
-	public static final String M0 = "M0";
 	public static final String M1 = "M1";
 	public static final String M2 = "M2";
 	public static final String M3 = "M3";

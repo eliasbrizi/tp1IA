@@ -25,7 +25,7 @@ public class CoronaGoal extends GoalTest {
     @Override
     public boolean isGoalState(AgentState agentState) {
         // Agent reach the goal if it is in B
-        if (((CoronaTrackerAgentState) agentState).getPosition().equals(CoronaTrackerAgentState.M10)) {
+        if (((CoronaTrackerAgentState) agentState).getPosition().equals(CoronaTrackerAgentState.L6)) {
             return true;
         }
         return false;

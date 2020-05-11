@@ -17,6 +17,11 @@
  */
 package coronaTracker;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
+import coronaTracker.Domain.Camino;
+import coronaTracker.Domain.Ciudadano;
 import frsf.cidisi.faia.agent.Action;
 import frsf.cidisi.faia.agent.Agent;
 import frsf.cidisi.faia.agent.Perception;
@@ -31,12 +36,39 @@ public class CoronaEnvironment extends Environment {
 
     @Override
     public Perception getPercept() {
-        // In this example the Environment does not return perceptions
-        return null;
+        /*
+        Create perception here
+        */
+        CoronaTrackerPerception perception = new CoronaTrackerPerception();
+        perception.setCaminosCortados(this.getCaminosCortados());
+
+        return perception;
     }
 
     @Override
     public String toString() {
         return "";
     }
+
+	public ArrayList<Camino> getCaminosCortados() {
+        // TODO Auto-generated method stub
+        /*
+        para la prueba quiero ir de J6 a L6 pero corto el camino entre ellos
+        */
+        Camino camino = new Camino(CoronaEnvironmentState.J6, CoronaEnvironmentState.L6
+        ArrayList<Camino> caminos = new ArrayList<Camino>();
+        caminos.add(camino);
+        return caminos;
+	}
+
+	public ArrayList<Ciudadano> getNuevosEscapados() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public ArrayList<Ciudadano> getNuevosInfectados() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+    
 }
