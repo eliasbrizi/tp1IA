@@ -273,11 +273,17 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
     //TODO equals y clone
     @Override
     public CoronaTrackerAgentState clone() {
-//        CoronaTrackerAgentState newState = new CoronaTrackerAgentState();
-//        newState.setPosition(position);
-//        ArrayList<String> visitedPosition = (ArrayList<String>) visitedPositions.clone();
-//        newState.setVisitedPositions(visitedPosition);
-//        return newState;
+		CoronaTrackerAgentState newState = new CoronaTrackerAgentState();
+		newState.setPosition(position);
+		ArrayList<String> visitedPosition = (ArrayList<String>) visitedPositions.clone();
+		newState.setVisitedPositions(visitedPosition);
+		ArrayList<Ciudadano> cloneciudadanosInfectados = (ArrayList<Ciudadano>) ciudadanosInfectados.clone();
+		ArrayList<Ciudadano> cloneciudadanosEscapados = (ArrayList<Ciudadano>)ciudadanosEscapados.clone();
+		ArrayList<Camino> clonecaminosCortados = (ArrayList<Camino>) caminosCortados.clone();
+		newState.setCaminosCortados(clonecaminosCortados);
+		newState.setCiudadanosEscapados(cloneciudadanosEscapados);
+		newState.setCiudadanosInfectados(cloneciudadanosInfectados);
+		return newState;
     }
 
     @Override
@@ -342,8 +348,10 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
         /*
          * Agregar nuevos caminos y ciudadanos
          */
-        CoronaTrackerPerception perception = (CoronaTrackerPerception) p;
-        this.caminosCortados.addAll(perception.getCaminosCortados());
+		CoronaTrackerPerception perception = (CoronaTrackerPerception) p;
+		ArrayList<Camino> nuevosCaminosCortados = new ArrayList<>();
+		nuevosCaminosCortados.addAll(perception.getCaminosCortados());
+		caminosCortados = nuevosCaminosCortados;
         this.ciudadanosEscapados.addAll(perception.getNuevosEscapados());
         this.ciudadanosInfectados.addAll(perception.getNuevosInfectados());
     }
@@ -361,12 +369,22 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
     //TODO equals y clone
     @Override
     public boolean equals(Object obj) {
-//
-//        if (!(obj instanceof CoronaTrackerAgentState)) {
-//            return false;
-//        }
-//        return position.equals(((CoronaTrackerAgentState) obj).getPosition());
-//    }
+
+       if (!(obj instanceof CoronaTrackerAgentState)) {
+           return false;
+	   } 
+	   // Verifico que las listas sean del mismo tamanio y tengan los mismos elementos
+	   if (position.equals(((CoronaTrackerAgentState) obj).getPosition()))
+			if (ciudadanosInfectados.containsAll(((CoronaTrackerAgentState) obj).getCiudadanosInfectados()) 
+				&& ciudadanosInfectados.size() == (((CoronaTrackerAgentState) obj).getCiudadanosInfectados().size()))
+				if (ciudadanosEscapados.containsAll(((CoronaTrackerAgentState) obj).getCiudadanosEscapados())
+				&& ciudadanosEscapados.size() == (((CoronaTrackerAgentState) obj).getCiudadanosEscapados().size()))
+					if (caminosCortados.containsAll(
+						((CoronaTrackerAgentState) obj).getCaminosCortados())
+						&& caminosCortados.size() == (((CoronaTrackerAgentState) obj).getCaminosCortados().size())) 
+						return true;
+		return false;
+   }
 
     public String getPosition() {
         return position;
@@ -387,4 +405,28 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
     public void setVisitedPositions(ArrayList<String> visitedPositions) {
         this.visitedPositions = visitedPositions;
     }
+
+	public ArrayList<Ciudadano> getCiudadanosInfectados() {
+		return ciudadanosInfectados;
+	}
+
+	public void setCiudadanosInfectados(ArrayList<Ciudadano> ciudadanosInfectados) {
+		this.ciudadanosInfectados = ciudadanosInfectados;
+	}
+
+	public ArrayList<Ciudadano> getCiudadanosEscapados() {
+		return ciudadanosEscapados;
+	}
+
+	public void setCiudadanosEscapados(ArrayList<Ciudadano> ciudadanosEscapados) {
+		this.ciudadanosEscapados = ciudadanosEscapados;
+	}
+
+	public ArrayList<Camino> getCaminosCortados() {
+		return caminosCortados;
+	}
+
+	public void setCaminosCortados(ArrayList<Camino> caminosCortados) {
+		this.caminosCortados = caminosCortados;
+	}
 }

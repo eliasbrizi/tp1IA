@@ -5,6 +5,7 @@ import frsf.cidisi.faia.agent.search.SearchAction;
 import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
 import frsf.cidisi.faia.state.AgentState;
 import frsf.cidisi.faia.state.EnvironmentState;
+import coronaTracker.Domain.Camino;
 public class GoL2 extends SearchAction {
    @Override
    public SearchBasedAgentState execute(SearchBasedAgentState s) {
@@ -16,7 +17,7 @@ public class GoL2 extends SearchAction {
       successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.L2);
-          if (index >= 0) {
+          if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.L2))) {
               agentState.setPosition(CoronaTrackerAgentState.L2);
            return agentState;
          }
