@@ -1,0 +1,35 @@
+package coronaTracker.actions;
+import coronaTracker.CoronaTrackerAgentState;
+import java.util.ArrayList;
+import frsf.cidisi.faia.agent.search.SearchAction;
+import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
+import frsf.cidisi.faia.state.AgentState;
+import frsf.cidisi.faia.state.EnvironmentState;
+import coronaTracker.Domain.Camino;
+
+public class MandarACasa extends SearchAction {
+
+	@Override
+	public SearchBasedAgentState execute(SearchBasedAgentState s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double getCost() {
+		return 0.0;
+	}
+
+	@Override
+	public EnvironmentState execute(AgentState ast, EnvironmentState est) {
+	       this.execute((SearchBasedAgentState) ast);
+	       return null;
+	}
+
+	@Override
+	public String toString() {
+		String str = "Hacer la ley, multar y mandar a casa.";
+		return str;
+	}
+
+}

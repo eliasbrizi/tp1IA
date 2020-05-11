@@ -29,8 +29,6 @@ import frsf.cidisi.faia.environment.Environment;
 
 public class CoronaEnvironment extends Environment {
 
-	private static boolean _yacree = false;
-	
     public CoronaEnvironment() {
         // Create the environment state
         this.environmentState = new CoronaEnvironmentState();
@@ -43,7 +41,7 @@ public class CoronaEnvironment extends Environment {
         */
         CoronaTrackerPerception perception = new CoronaTrackerPerception();
         perception.setCaminosCortados(this.getCaminosCortados());
-        perception.setNuevosEscapados(this.getNuevosEscapados());
+
         return perception;
     }
 
@@ -65,13 +63,7 @@ public class CoronaEnvironment extends Environment {
 
 	public ArrayList<Ciudadano> getNuevosEscapados() {
 		// TODO Auto-generated method stub
-		ArrayList<Ciudadano> escapados = new ArrayList<>();
-		if(!_yacree) {
-			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A1, CoronaTrackerAgentState.K9, true);
-			escapados.add(c);
-			_yacree = true;
-		}
-		return escapados;
+		return null;
 	}
 
 	public ArrayList<Ciudadano> getNuevosInfectados() {

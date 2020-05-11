@@ -264,7 +264,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoM15());
         actions.addElement(new GoM16());
         actions.addElement(new GoM17());
-        actions.addElement(new MandarACasa());
 
         // Robot agent problem
         Problem problem = new Problem(goal, agentState, actions);

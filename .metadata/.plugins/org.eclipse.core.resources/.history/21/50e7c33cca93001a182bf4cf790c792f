@@ -69,7 +69,6 @@ public class CoronaEnvironment extends Environment {
 		if(!_yacree) {
 			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A1, CoronaTrackerAgentState.K9, true);
 			escapados.add(c);
-			_yacree = true;
 		}
 		return escapados;
 	}
