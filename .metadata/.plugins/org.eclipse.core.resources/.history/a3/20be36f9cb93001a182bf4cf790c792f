@@ -87,9 +87,18 @@ public class CoronaTrackerPerception extends Perception {
 
 	@Override
     public String toString() {
-        String str = "Caminos cortados: "+ caminosCortados.size()
-        + "\nNuevos Escapados: "+nuevosEscapados.size()
-        + "\nNuevos Infectados: "+nuevosInfectados.size();
+        StringBuffer str = new StringBuffer();
+
+//        str.append("Energy: " + this.energy);
+//        str.append("; ");
+//        str.append("Left Sensor: " + this.leftSensor);
+//        str.append("; ");
+//        str.append("Up Sensor: " + this.topSensor);
+//        str.append("; ");
+//        str.append("Right Sensor: " + this.rightSensor);
+//        str.append("; ");
+//        str.append("Down Sensor: " + this.bottomSensor);
+
         return str.toString();
     }
 
