@@ -24,7 +24,7 @@ public class CoronaGoal extends GoalTest {
 
     @Override
     public boolean isGoalState(AgentState agentState) {
-        // Agent reach the goal if it is in B
+        // Al agente alcanza la meta si la lista de ciudadanos escapados esta vacia
         if (((CoronaTrackerAgentState) agentState).getCiudadanosEscapados().isEmpty()) {
             return true;
         }

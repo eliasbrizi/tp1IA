@@ -29,7 +29,7 @@ import frsf.cidisi.faia.environment.Environment;
 
 public class CoronaEnvironment extends Environment {
 
-	private static boolean _yacree = false;
+	private static int _yacree = 0;
 	
     public CoronaEnvironment() {
         // Create the environment state
@@ -66,11 +66,22 @@ public class CoronaEnvironment extends Environment {
 	public ArrayList<Ciudadano> getNuevosEscapados() {
 		// TODO Auto-generated method stub
 		ArrayList<Ciudadano> escapados = new ArrayList<>();
-		if(!_yacree) {
-			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A1, CoronaTrackerAgentState.K9, true);
+		if(_yacree == 0) {
+			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A1, CoronaTrackerAgentState.I6, true);
 			escapados.add(c);
-			_yacree = true;
+
 		}
+		if(_yacree == 1) {
+			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A3, CoronaTrackerAgentState.I7, true);
+			escapados.add(c);
+
+		}
+		if(_yacree == 2) {
+			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.J2, true);
+			escapados.add(c);
+
+		}
+		_yacree++;
 		return escapados;
 	}
 

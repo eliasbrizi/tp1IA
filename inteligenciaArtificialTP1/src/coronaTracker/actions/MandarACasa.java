@@ -17,9 +17,12 @@ public class MandarACasa extends SearchAction {
 			if (!agente.getCiudadanosInfectados().
 					contains(agente.getCiudadanosEscapados().get(0))) {
 				//TODO ver si hacer random o como saber si lo ponemos como infectado
+				if ( (Math.round((Math.random()*100))% 4) != 0)
 				agente.getCiudadanosInfectados().add(agente.getCiudadanosEscapados().get(0));
 			}
 			agente.getCiudadanosEscapados().remove(0);
+
+		    agente.getVisitedPositions().clear();
 			return agente; 
 		}
 			

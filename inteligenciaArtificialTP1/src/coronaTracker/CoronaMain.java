@@ -31,6 +31,7 @@ public class CoronaMain {
                 new SearchBasedAgentSimulator(environment, agent);
         
         simulator.start();
+
     }
 
 }
