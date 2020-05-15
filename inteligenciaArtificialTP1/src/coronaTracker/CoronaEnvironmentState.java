@@ -21,6 +21,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
+import coronaTracker.Domain.Camino;
+import coronaTracker.Domain.Ciudadano;
 import frsf.cidisi.faia.state.EnvironmentState;
 
 public class CoronaEnvironmentState extends EnvironmentState {
@@ -253,6 +255,10 @@ public class CoronaEnvironmentState extends EnvironmentState {
      * of successors of that point.
      */
     private HashMap<String, Collection<String>> map;
+    
+    private ArrayList<Ciudadano> ciudadanosInfectados;
+    private ArrayList<Ciudadano> ciudadanosEscapados;
+    private ArrayList<Camino> caminosCortados;
 
     public static final String[][] POSITIONS = new String[][]{
 		{A1,A2},
@@ -439,6 +445,10 @@ public class CoronaEnvironmentState extends EnvironmentState {
             map.put(POSITIONS[i][0], successors);
 
         }
+        
+        this.ciudadanosInfectados = new ArrayList<>();
+        this.ciudadanosEscapados = new ArrayList<>();
+        this.caminosCortados = new ArrayList<>();
     }
 
     @Override
@@ -461,7 +471,31 @@ public class CoronaEnvironmentState extends EnvironmentState {
         return str;
     }
 
-    @Override
+    public ArrayList<Ciudadano> getCiudadanosInfectados() {
+		return ciudadanosInfectados;
+	}
+
+	public void setCiudadanosInfectados(ArrayList<Ciudadano> ciudadanosInfectados) {
+		this.ciudadanosInfectados = ciudadanosInfectados;
+	}
+
+	public ArrayList<Ciudadano> getCiudadanosEscapados() {
+		return ciudadanosEscapados;
+	}
+
+	public void setCiudadanosEscapados(ArrayList<Ciudadano> ciudadanosEscapados) {
+		this.ciudadanosEscapados = ciudadanosEscapados;
+	}
+
+	public ArrayList<Camino> getCaminosCortados() {
+		return caminosCortados;
+	}
+
+	public void setCaminosCortados(ArrayList<Camino> caminosCortados) {
+		this.caminosCortados = caminosCortados;
+	}
+
+	@Override
     public boolean equals(Object obj) {
         // Returns always true. This method is not used.
         return true;

@@ -7,974 +7,120 @@ nodo0 -> nodo1;
 nodo2[label="{EO: 2|cost: 1.0|A: GoA3}"]
 nodo4[label="{EO: 4|cost: 2.0|A: GoA5|Posicion:\nA3
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo7[label="{EO: 7|cost: 3.0|A: GoA6|Posicion:\nA5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo13[label="{EO: 13|cost: 4.0|A: GoA7|Posicion:\nA6
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo21[label="{EO: 21|cost: 5.0|A: GoA8|Posicion:\nA7
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo36[label="{EO: 36|cost: 6.0|A: GoA9|Posicion:\nA8
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo59[label="{EO: 59|cost: 7.0|A: GoA10|Posicion:\nA9
 Infectados:\n0
-Escapados:\n2}"]
-nodo99[label="{EO: 99|cost: 8.0|A: GoA11|Posicion:\nA10
+Escapados:\n
+posicion:\nA9
+}"]
+nodo100[label="{EO: 100|cost: 8.0|A: GoA11|Posicion:\nA10
 Infectados:\n0
-Escapados:\n2}"]
-nodo161[label="{EO: 161|cost: 9.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-nodo277[label="{EO: 277|cost: 10.0|A: GoA14|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-nodo447[label="{EO: 447|cost: 11.0|A: GoA15|Posicion:\nA14
-Infectados:\n0
-Escapados:\n2}"]
-nodo748[label="{EO: 748|cost: 12.0|A: GoA16|Posicion:\nA15
-Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
-nodo447 -> nodo748;
-nodo749[label="{EO: 749|cost: 12.0|A: GoB15|Posicion:\nA15
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo447 -> nodo749;
-
-nodo277 -> nodo447;
-nodo448[label="{EO: 448|cost: 11.0|A: GoC14|Posicion:\nA14
-Infectados:\n0
-Escapados:\n2}"]
-nodo750[label="{EO: 750|cost: 12.0|A: GoC12|Posicion:\nC14
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo448 -> nodo750;
-nodo751[label="{EO: 751|cost: 12.0|A: GoD14|Posicion:\nC14
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo448 -> nodo751;
-
-nodo277 -> nodo448;
-
-nodo161 -> nodo277;
-nodo278[label="{EO: 278|cost: 10.0|A: GoC11|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-nodo449[label="{EO: 449|cost: 11.0|A: GoC10|Posicion:\nC11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo278 -> nodo449;
-nodo450[label="{EO: 450|cost: 11.0|A: GoD11|Posicion:\nC11
-Infectados:\n0
-Escapados:\n2}"]
-nodo752[label="{EO: 752|cost: 12.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo450 -> nodo752;
-nodo753[label="{EO: 753|cost: 12.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo450 -> nodo753;
-
-nodo278 -> nodo450;
-
-nodo161 -> nodo278;
-
-nodo99 -> nodo161;
-
-nodo59 -> nodo99;
+nodo59 -> nodo100;
 
 nodo36 -> nodo59;
 nodo60[label="{EO: 60|cost: 7.0|A: GoD9|Posicion:\nA9
 Infectados:\n0
-Escapados:\n2}"]
-nodo100[label="{EO: 100|cost: 8.0|A: GoD10|Posicion:\nD9
+Escapados:\n
+posicion:\nA9
+}"]
+nodo101[label="{EO: 101|cost: 8.0|A: GoD10|Posicion:\nD9
 Infectados:\n0
-Escapados:\n2}"]
-nodo162[label="{EO: 162|cost: 9.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo279[label="{EO: 279|cost: 10.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-nodo451[label="{EO: 451|cost: 11.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo754[label="{EO: 754|cost: 12.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo451 -> nodo754;
-
-nodo279 -> nodo451;
-
-nodo162 -> nodo279;
-
-nodo100 -> nodo162;
-nodo163[label="{EO: 163|cost: 9.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo280[label="{EO: 280|cost: 10.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo452[label="{EO: 452|cost: 11.0|A: GoC12|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo755[label="{EO: 755|cost: 12.0|A: GoA12|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo452 -> nodo755;
-nodo756[label="{EO: 756|cost: 12.0|A: GoC11|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo452 -> nodo756;
-
-nodo280 -> nodo452;
-nodo453[label="{EO: 453|cost: 11.0|A: GoD13|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo757[label="{EO: 757|cost: 12.0|A: GoD14|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo453 -> nodo757;
-nodo758[label="{EO: 758|cost: 12.0|A: GoE13|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo453 -> nodo758;
-
-nodo280 -> nodo453;
-
-nodo163 -> nodo280;
-nodo281[label="{EO: 281|cost: 10.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo454[label="{EO: 454|cost: 11.0|A: GoE10|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo759[label="{EO: 759|cost: 12.0|A: GoE9|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo454 -> nodo759;
-
-nodo281 -> nodo454;
-nodo455[label="{EO: 455|cost: 11.0|A: GoF11|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo760[label="{EO: 760|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo455 -> nodo760;
-nodo761[label="{EO: 761|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo455 -> nodo761;
-
-nodo281 -> nodo455;
-
-nodo163 -> nodo281;
-
-nodo100 -> nodo163;
-
-nodo60 -> nodo100;
-nodo101[label="{EO: 101|cost: 8.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo164[label="{EO: 164|cost: 9.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo282[label="{EO: 282|cost: 10.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo164 -> nodo282;
-nodo283[label="{EO: 283|cost: 10.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo456[label="{EO: 456|cost: 11.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo762[label="{EO: 762|cost: 12.0|A: GoD6|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo456 -> nodo762;
-nodo763[label="{EO: 763|cost: 12.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo456 -> nodo763;
-
-nodo283 -> nodo456;
-nodo457[label="{EO: 457|cost: 11.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo764[label="{EO: 764|cost: 12.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo457 -> nodo764;
-nodo765[label="{EO: 765|cost: 12.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo457 -> nodo765;
-
-nodo283 -> nodo457;
-
-nodo164 -> nodo283;
-
-nodo101 -> nodo164;
-nodo165[label="{EO: 165|cost: 9.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo284[label="{EO: 284|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo458[label="{EO: 458|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo766[label="{EO: 766|cost: 12.0|A: GoD10|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo458 -> nodo766;
-
-nodo284 -> nodo458;
-nodo459[label="{EO: 459|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo767[label="{EO: 767|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo459 -> nodo767;
-nodo768[label="{EO: 768|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo459 -> nodo768;
-
-nodo284 -> nodo459;
-
-nodo165 -> nodo284;
-nodo285[label="{EO: 285|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo460[label="{EO: 460|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo769[label="{EO: 769|cost: 12.0|A: GoF8|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo460 -> nodo769;
-nodo770[label="{EO: 770|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo460 -> nodo770;
-
-nodo285 -> nodo460;
-nodo461[label="{EO: 461|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo771[label="{EO: 771|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo461 -> nodo771;
-nodo772[label="{EO: 772|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo461 -> nodo772;
-
-nodo285 -> nodo461;
-
-nodo165 -> nodo285;
-
-nodo101 -> nodo165;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo60 -> nodo101;
+nodo102[label="{EO: 102|cost: 8.0|A: GoE9|Posicion:\nD9
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo60 -> nodo102;
 
 nodo36 -> nodo60;
+nodo61[label="{EO: 61|cost: 7.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nA9
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo36 -> nodo61;
 
 nodo21 -> nodo36;
 
 nodo13 -> nodo21;
 nodo22[label="{EO: 22|cost: 5.0|A: GoD7|Posicion:\nA7
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo37[label="{EO: 37|cost: 6.0|A: GoD8|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo61[label="{EO: 61|cost: 7.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo102[label="{EO: 102|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo166[label="{EO: 166|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo286[label="{EO: 286|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo462[label="{EO: 462|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-nodo773[label="{EO: 773|cost: 12.0|A: GoA14|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo462 -> nodo773;
-nodo774[label="{EO: 774|cost: 12.0|A: GoC11|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo462 -> nodo774;
-
-nodo286 -> nodo462;
-
-nodo166 -> nodo286;
-
-nodo102 -> nodo166;
-nodo167[label="{EO: 167|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo287[label="{EO: 287|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo463[label="{EO: 463|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo775[label="{EO: 775|cost: 12.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo463 -> nodo775;
-
-nodo287 -> nodo463;
-nodo464[label="{EO: 464|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo776[label="{EO: 776|cost: 12.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo464 -> nodo776;
-nodo777[label="{EO: 777|cost: 12.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo464 -> nodo777;
-
-nodo287 -> nodo464;
-
-nodo167 -> nodo287;
-nodo288[label="{EO: 288|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo465[label="{EO: 465|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo778[label="{EO: 778|cost: 12.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo465 -> nodo778;
-
-nodo288 -> nodo465;
-nodo466[label="{EO: 466|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo779[label="{EO: 779|cost: 12.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo466 -> nodo779;
-nodo780[label="{EO: 780|cost: 12.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo466 -> nodo780;
-
-nodo288 -> nodo466;
-
-nodo167 -> nodo288;
-
-nodo102 -> nodo167;
-
-nodo61 -> nodo102;
-
-nodo37 -> nodo61;
-nodo62[label="{EO: 62|cost: 7.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo103[label="{EO: 103|cost: 8.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo168[label="{EO: 168|cost: 9.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo289[label="{EO: 289|cost: 10.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-nodo467[label="{EO: 467|cost: 11.0|A: GoA9|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo781[label="{EO: 781|cost: 12.0|A: GoA8|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo467 -> nodo781;
-
-nodo289 -> nodo467;
-nodo468[label="{EO: 468|cost: 11.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo782[label="{EO: 782|cost: 12.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo468 -> nodo782;
-
-nodo289 -> nodo468;
-
-nodo168 -> nodo289;
-
-nodo103 -> nodo168;
-nodo169[label="{EO: 169|cost: 9.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo290[label="{EO: 290|cost: 10.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo469[label="{EO: 469|cost: 11.0|A: GoC12|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo783[label="{EO: 783|cost: 12.0|A: GoA12|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo469 -> nodo783;
-nodo784[label="{EO: 784|cost: 12.0|A: GoC11|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo469 -> nodo784;
-
-nodo290 -> nodo469;
-nodo470[label="{EO: 470|cost: 11.0|A: GoD13|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo785[label="{EO: 785|cost: 12.0|A: GoD14|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo470 -> nodo785;
-nodo786[label="{EO: 786|cost: 12.0|A: GoE13|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo470 -> nodo786;
-
-nodo290 -> nodo470;
-
-nodo169 -> nodo290;
-nodo291[label="{EO: 291|cost: 10.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo471[label="{EO: 471|cost: 11.0|A: GoE10|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo787[label="{EO: 787|cost: 12.0|A: GoE9|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo471 -> nodo787;
-
-nodo291 -> nodo471;
-nodo472[label="{EO: 472|cost: 11.0|A: GoF11|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo788[label="{EO: 788|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo472 -> nodo788;
-nodo789[label="{EO: 789|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo472 -> nodo789;
-
-nodo291 -> nodo472;
-
-nodo169 -> nodo291;
-
-nodo103 -> nodo169;
-
-nodo62 -> nodo103;
-nodo104[label="{EO: 104|cost: 8.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo170[label="{EO: 170|cost: 9.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo292[label="{EO: 292|cost: 10.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo473[label="{EO: 473|cost: 11.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo790[label="{EO: 790|cost: 12.0|A: GoD6|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo473 -> nodo790;
-nodo791[label="{EO: 791|cost: 12.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo473 -> nodo791;
-
-nodo292 -> nodo473;
-nodo474[label="{EO: 474|cost: 11.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo792[label="{EO: 792|cost: 12.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo474 -> nodo792;
-nodo793[label="{EO: 793|cost: 12.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo474 -> nodo793;
-
-nodo292 -> nodo474;
-
-nodo170 -> nodo292;
-
-nodo104 -> nodo170;
-nodo171[label="{EO: 171|cost: 9.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo293[label="{EO: 293|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo475[label="{EO: 475|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo794[label="{EO: 794|cost: 12.0|A: GoD10|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo475 -> nodo794;
-
-nodo293 -> nodo475;
-nodo476[label="{EO: 476|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo795[label="{EO: 795|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo476 -> nodo795;
-nodo796[label="{EO: 796|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo476 -> nodo796;
-
-nodo293 -> nodo476;
-
-nodo171 -> nodo293;
-nodo294[label="{EO: 294|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo477[label="{EO: 477|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo797[label="{EO: 797|cost: 12.0|A: GoF8|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo477 -> nodo797;
-nodo798[label="{EO: 798|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo477 -> nodo798;
-
-nodo294 -> nodo477;
-nodo478[label="{EO: 478|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo799[label="{EO: 799|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo478 -> nodo799;
-nodo800[label="{EO: 800|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo478 -> nodo800;
-
-nodo294 -> nodo478;
-
-nodo171 -> nodo294;
-
-nodo104 -> nodo171;
-
-nodo62 -> nodo104;
+Escapados:\n
+posicion:\nA9
+}"]
+nodo62[label="{EO: 62|cost: 7.0|A: GoA8|Posicion:\nD8
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo37 -> nodo62;
+nodo63[label="{EO: 63|cost: 7.0|A: GoD9|Posicion:\nD8
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo37 -> nodo63;
 
 nodo22 -> nodo37;
 nodo38[label="{EO: 38|cost: 6.0|A: GoE7|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo63[label="{EO: 63|cost: 7.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo105[label="{EO: 105|cost: 8.0|A: GoD6|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo63 -> nodo105;
-nodo106[label="{EO: 106|cost: 8.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo172[label="{EO: 172|cost: 9.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo295[label="{EO: 295|cost: 10.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo479[label="{EO: 479|cost: 11.0|A: GoD5|Posicion:\nD3
-Infectados:\n0
-Escapados:\n2}"]
-nodo801[label="{EO: 801|cost: 12.0|A: GoD6|Posicion:\nD5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo479 -> nodo801;
-
-nodo295 -> nodo479;
-
-nodo172 -> nodo295;
-nodo296[label="{EO: 296|cost: 10.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo480[label="{EO: 480|cost: 11.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo802[label="{EO: 802|cost: 12.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo480 -> nodo802;
-
-nodo296 -> nodo480;
-nodo481[label="{EO: 481|cost: 11.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo803[label="{EO: 803|cost: 12.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo481 -> nodo803;
-
-nodo296 -> nodo481;
-
-nodo172 -> nodo296;
-
-nodo106 -> nodo172;
-nodo173[label="{EO: 173|cost: 9.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo297[label="{EO: 297|cost: 10.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo482[label="{EO: 482|cost: 11.0|A: GoG6|Posicion:\nF6
-Infectados:\n0
-Escapados:\n2}"]
-nodo804[label="{EO: 804|cost: 12.0|A: GoG7|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo482 -> nodo804;
-nodo805[label="{EO: 805|cost: 12.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo482 -> nodo805;
-
-nodo297 -> nodo482;
-
-nodo173 -> nodo297;
-nodo298[label="{EO: 298|cost: 10.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo483[label="{EO: 483|cost: 11.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo806[label="{EO: 806|cost: 12.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo483 -> nodo806;
-nodo807[label="{EO: 807|cost: 12.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo483 -> nodo807;
-
-nodo298 -> nodo483;
-nodo484[label="{EO: 484|cost: 11.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo808[label="{EO: 808|cost: 12.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo484 -> nodo808;
-nodo809[label="{EO: 809|cost: 12.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo484 -> nodo809;
-
-nodo298 -> nodo484;
-
-nodo173 -> nodo298;
-
-nodo106 -> nodo173;
-
-nodo63 -> nodo106;
-
-nodo38 -> nodo63;
-nodo64[label="{EO: 64|cost: 7.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo107[label="{EO: 107|cost: 8.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo174[label="{EO: 174|cost: 9.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo299[label="{EO: 299|cost: 10.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo485[label="{EO: 485|cost: 11.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo810[label="{EO: 810|cost: 12.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo485 -> nodo810;
-
-nodo299 -> nodo485;
-nodo486[label="{EO: 486|cost: 11.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo811[label="{EO: 811|cost: 12.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo486 -> nodo811;
-nodo812[label="{EO: 812|cost: 12.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo486 -> nodo812;
-
-nodo299 -> nodo486;
-
-nodo174 -> nodo299;
-
-nodo107 -> nodo174;
-nodo175[label="{EO: 175|cost: 9.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo300[label="{EO: 300|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo487[label="{EO: 487|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo813[label="{EO: 813|cost: 12.0|A: GoD10|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo487 -> nodo813;
-nodo814[label="{EO: 814|cost: 12.0|A: GoE9|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo487 -> nodo814;
-
-nodo300 -> nodo487;
-nodo488[label="{EO: 488|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo815[label="{EO: 815|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo488 -> nodo815;
-nodo816[label="{EO: 816|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo488 -> nodo816;
-
-nodo300 -> nodo488;
-
-nodo175 -> nodo300;
-nodo301[label="{EO: 301|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo489[label="{EO: 489|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo817[label="{EO: 817|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo489 -> nodo817;
-
-nodo301 -> nodo489;
-nodo490[label="{EO: 490|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo818[label="{EO: 818|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo490 -> nodo818;
-nodo819[label="{EO: 819|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo490 -> nodo819;
-
-nodo301 -> nodo490;
-
-nodo175 -> nodo301;
-
-nodo107 -> nodo175;
-
-nodo64 -> nodo107;
-nodo108[label="{EO: 108|cost: 8.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo176[label="{EO: 176|cost: 9.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo302[label="{EO: 302|cost: 10.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo491[label="{EO: 491|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo820[label="{EO: 820|cost: 12.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo491 -> nodo820;
-nodo821[label="{EO: 821|cost: 12.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo491 -> nodo821;
-
-nodo302 -> nodo491;
-nodo492[label="{EO: 492|cost: 11.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo822[label="{EO: 822|cost: 12.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo492 -> nodo822;
-nodo823[label="{EO: 823|cost: 12.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo492 -> nodo823;
-
-nodo302 -> nodo492;
-
-nodo176 -> nodo302;
-
-nodo108 -> nodo176;
-nodo177[label="{EO: 177|cost: 9.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo303[label="{EO: 303|cost: 10.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-nodo493[label="{EO: 493|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo824[label="{EO: 824|cost: 12.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo493 -> nodo824;
-nodo825[label="{EO: 825|cost: 12.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo493 -> nodo825;
-
-nodo303 -> nodo493;
-nodo494[label="{EO: 494|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo826[label="{EO: 826|cost: 12.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo494 -> nodo826;
-nodo827[label="{EO: 827|cost: 12.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo494 -> nodo827;
-
-nodo303 -> nodo494;
-
-nodo177 -> nodo303;
-
-nodo108 -> nodo177;
-
-nodo64 -> nodo108;
+Escapados:\n
+posicion:\nA9
+}"]
+nodo64[label="{EO: 64|cost: 7.0|A: GoE6|Posicion:\nE7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo38 -> nodo64;
+nodo65[label="{EO: 65|cost: 7.0|A: GoF7|Posicion:\nE7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo38 -> nodo65;
 
 nodo22 -> nodo38;
 
@@ -985,991 +131,87 @@ nodo7 -> nodo13;
 nodo4 -> nodo7;
 nodo8[label="{EO: 8|cost: 3.0|A: GoD5|Posicion:\nA5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo14[label="{EO: 14|cost: 4.0|A: GoD6|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo23[label="{EO: 23|cost: 5.0|A: GoA6|Posicion:\nD6
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo39[label="{EO: 39|cost: 6.0|A: GoA7|Posicion:\nA6
 Infectados:\n0
-Escapados:\n2}"]
-nodo65[label="{EO: 65|cost: 7.0|A: GoA8|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo109[label="{EO: 109|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo178[label="{EO: 178|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo304[label="{EO: 304|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo495[label="{EO: 495|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-nodo828[label="{EO: 828|cost: 12.0|A: GoA14|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo495 -> nodo828;
-nodo829[label="{EO: 829|cost: 12.0|A: GoC11|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo495 -> nodo829;
-
-nodo304 -> nodo495;
-
-nodo178 -> nodo304;
-
-nodo109 -> nodo178;
-nodo179[label="{EO: 179|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo305[label="{EO: 305|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo496[label="{EO: 496|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo830[label="{EO: 830|cost: 12.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo496 -> nodo830;
-
-nodo305 -> nodo496;
-nodo497[label="{EO: 497|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo831[label="{EO: 831|cost: 12.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo497 -> nodo831;
-nodo832[label="{EO: 832|cost: 12.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo497 -> nodo832;
-
-nodo305 -> nodo497;
-
-nodo179 -> nodo305;
-nodo306[label="{EO: 306|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo498[label="{EO: 498|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo833[label="{EO: 833|cost: 12.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo498 -> nodo833;
-nodo834[label="{EO: 834|cost: 12.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo498 -> nodo834;
-
-nodo306 -> nodo498;
-nodo499[label="{EO: 499|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo835[label="{EO: 835|cost: 12.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo499 -> nodo835;
-nodo836[label="{EO: 836|cost: 12.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo499 -> nodo836;
-
-nodo306 -> nodo499;
-
-nodo179 -> nodo306;
-
-nodo109 -> nodo179;
-
-nodo65 -> nodo109;
-
-nodo39 -> nodo65;
-nodo66[label="{EO: 66|cost: 7.0|A: GoD7|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo110[label="{EO: 110|cost: 8.0|A: GoD8|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo180[label="{EO: 180|cost: 9.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo307[label="{EO: 307|cost: 10.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo500[label="{EO: 500|cost: 11.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo837[label="{EO: 837|cost: 12.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo500 -> nodo837;
-
-nodo307 -> nodo500;
-nodo501[label="{EO: 501|cost: 11.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo838[label="{EO: 838|cost: 12.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo501 -> nodo838;
-nodo839[label="{EO: 839|cost: 12.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo501 -> nodo839;
-
-nodo307 -> nodo501;
-
-nodo180 -> nodo307;
-
-nodo110 -> nodo180;
-nodo181[label="{EO: 181|cost: 9.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo308[label="{EO: 308|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo502[label="{EO: 502|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo840[label="{EO: 840|cost: 12.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo502 -> nodo840;
-
-nodo308 -> nodo502;
-nodo503[label="{EO: 503|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo841[label="{EO: 841|cost: 12.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo503 -> nodo841;
-nodo842[label="{EO: 842|cost: 12.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo503 -> nodo842;
-
-nodo308 -> nodo503;
-
-nodo181 -> nodo308;
-nodo309[label="{EO: 309|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo504[label="{EO: 504|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo843[label="{EO: 843|cost: 12.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo504 -> nodo843;
-
-nodo309 -> nodo504;
-nodo505[label="{EO: 505|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo844[label="{EO: 844|cost: 12.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo505 -> nodo844;
-nodo845[label="{EO: 845|cost: 12.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo505 -> nodo845;
-
-nodo309 -> nodo505;
-
-nodo181 -> nodo309;
-
-nodo110 -> nodo181;
-
-nodo66 -> nodo110;
-nodo111[label="{EO: 111|cost: 8.0|A: GoE7|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo182[label="{EO: 182|cost: 9.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo310[label="{EO: 310|cost: 10.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo506[label="{EO: 506|cost: 11.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo846[label="{EO: 846|cost: 12.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo506 -> nodo846;
-nodo847[label="{EO: 847|cost: 12.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo506 -> nodo847;
-
-nodo310 -> nodo506;
-nodo507[label="{EO: 507|cost: 11.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo848[label="{EO: 848|cost: 12.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo507 -> nodo848;
-nodo849[label="{EO: 849|cost: 12.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo507 -> nodo849;
-
-nodo310 -> nodo507;
-
-nodo182 -> nodo310;
-
-nodo111 -> nodo182;
-nodo183[label="{EO: 183|cost: 9.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo311[label="{EO: 311|cost: 10.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo508[label="{EO: 508|cost: 11.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo850[label="{EO: 850|cost: 12.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo508 -> nodo850;
-
-nodo311 -> nodo508;
-nodo509[label="{EO: 509|cost: 11.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo851[label="{EO: 851|cost: 12.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo509 -> nodo851;
-nodo852[label="{EO: 852|cost: 12.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo509 -> nodo852;
-
-nodo311 -> nodo509;
-
-nodo183 -> nodo311;
-nodo312[label="{EO: 312|cost: 10.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo510[label="{EO: 510|cost: 11.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo853[label="{EO: 853|cost: 12.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo510 -> nodo853;
-
-nodo312 -> nodo510;
-nodo511[label="{EO: 511|cost: 11.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo854[label="{EO: 854|cost: 12.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo511 -> nodo854;
-
-nodo312 -> nodo511;
-
-nodo183 -> nodo312;
-
-nodo111 -> nodo183;
-
-nodo66 -> nodo111;
+Escapados:\n
+posicion:\nA9
+}"]
+nodo66[label="{EO: 66|cost: 7.0|A: GoA8|Posicion:\nA7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo39 -> nodo66;
+nodo67[label="{EO: 67|cost: 7.0|A: GoD7|Posicion:\nA7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo39 -> nodo67;
 
 nodo23 -> nodo39;
 
 nodo14 -> nodo23;
 nodo24[label="{EO: 24|cost: 5.0|A: GoD7|Posicion:\nD6
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo40[label="{EO: 40|cost: 6.0|A: GoD8|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo67[label="{EO: 67|cost: 7.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo112[label="{EO: 112|cost: 8.0|A: GoA7|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo184[label="{EO: 184|cost: 9.0|A: GoA6|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo112 -> nodo184;
-
-nodo67 -> nodo112;
-nodo113[label="{EO: 113|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo185[label="{EO: 185|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo313[label="{EO: 313|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo512[label="{EO: 512|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-nodo855[label="{EO: 855|cost: 12.0|A: GoA14|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo512 -> nodo855;
-nodo856[label="{EO: 856|cost: 12.0|A: GoC11|Posicion:\nA12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo512 -> nodo856;
-
-nodo313 -> nodo512;
-
-nodo185 -> nodo313;
-
-nodo113 -> nodo185;
-nodo186[label="{EO: 186|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo314[label="{EO: 314|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo513[label="{EO: 513|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo857[label="{EO: 857|cost: 12.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo513 -> nodo857;
-
-nodo314 -> nodo513;
-nodo514[label="{EO: 514|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo858[label="{EO: 858|cost: 12.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo514 -> nodo858;
-nodo859[label="{EO: 859|cost: 12.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo514 -> nodo859;
-
-nodo314 -> nodo514;
-
-nodo186 -> nodo314;
-nodo315[label="{EO: 315|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo515[label="{EO: 515|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo860[label="{EO: 860|cost: 12.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo515 -> nodo860;
-
-nodo315 -> nodo515;
-nodo516[label="{EO: 516|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo861[label="{EO: 861|cost: 12.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo516 -> nodo861;
-nodo862[label="{EO: 862|cost: 12.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo516 -> nodo862;
-
-nodo315 -> nodo516;
-
-nodo186 -> nodo315;
-
-nodo113 -> nodo186;
-
-nodo67 -> nodo113;
-
-nodo40 -> nodo67;
-nodo68[label="{EO: 68|cost: 7.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo114[label="{EO: 114|cost: 8.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo187[label="{EO: 187|cost: 9.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo316[label="{EO: 316|cost: 10.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-nodo517[label="{EO: 517|cost: 11.0|A: GoA9|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo863[label="{EO: 863|cost: 12.0|A: GoA8|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo517 -> nodo863;
-
-nodo316 -> nodo517;
-nodo518[label="{EO: 518|cost: 11.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo864[label="{EO: 864|cost: 12.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo518 -> nodo864;
-
-nodo316 -> nodo518;
-
-nodo187 -> nodo316;
-
-nodo114 -> nodo187;
-nodo188[label="{EO: 188|cost: 9.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo317[label="{EO: 317|cost: 10.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo519[label="{EO: 519|cost: 11.0|A: GoC12|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo865[label="{EO: 865|cost: 12.0|A: GoA12|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo519 -> nodo865;
-nodo866[label="{EO: 866|cost: 12.0|A: GoC11|Posicion:\nC12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo519 -> nodo866;
-
-nodo317 -> nodo519;
-nodo520[label="{EO: 520|cost: 11.0|A: GoD13|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-nodo867[label="{EO: 867|cost: 12.0|A: GoD14|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo520 -> nodo867;
-nodo868[label="{EO: 868|cost: 12.0|A: GoE13|Posicion:\nD13
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo520 -> nodo868;
-
-nodo317 -> nodo520;
-
-nodo188 -> nodo317;
-nodo318[label="{EO: 318|cost: 10.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo521[label="{EO: 521|cost: 11.0|A: GoE10|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo869[label="{EO: 869|cost: 12.0|A: GoE9|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo521 -> nodo869;
-
-nodo318 -> nodo521;
-nodo522[label="{EO: 522|cost: 11.0|A: GoF11|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-nodo870[label="{EO: 870|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo522 -> nodo870;
-nodo871[label="{EO: 871|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo522 -> nodo871;
-
-nodo318 -> nodo522;
-
-nodo188 -> nodo318;
-
-nodo114 -> nodo188;
-
-nodo68 -> nodo114;
-nodo115[label="{EO: 115|cost: 8.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo189[label="{EO: 189|cost: 9.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo319[label="{EO: 319|cost: 10.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo523[label="{EO: 523|cost: 11.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo872[label="{EO: 872|cost: 12.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo523 -> nodo872;
-
-nodo319 -> nodo523;
-nodo524[label="{EO: 524|cost: 11.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo873[label="{EO: 873|cost: 12.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo524 -> nodo873;
-nodo874[label="{EO: 874|cost: 12.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo524 -> nodo874;
-
-nodo319 -> nodo524;
-
-nodo189 -> nodo319;
-
-nodo115 -> nodo189;
-nodo190[label="{EO: 190|cost: 9.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo320[label="{EO: 320|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo525[label="{EO: 525|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo875[label="{EO: 875|cost: 12.0|A: GoD10|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo525 -> nodo875;
-
-nodo320 -> nodo525;
-nodo526[label="{EO: 526|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo876[label="{EO: 876|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo526 -> nodo876;
-nodo877[label="{EO: 877|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo526 -> nodo877;
-
-nodo320 -> nodo526;
-
-nodo190 -> nodo320;
-nodo321[label="{EO: 321|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo527[label="{EO: 527|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo878[label="{EO: 878|cost: 12.0|A: GoF8|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo527 -> nodo878;
-nodo879[label="{EO: 879|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo527 -> nodo879;
-
-nodo321 -> nodo527;
-nodo528[label="{EO: 528|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo880[label="{EO: 880|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo528 -> nodo880;
-nodo881[label="{EO: 881|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo528 -> nodo881;
-
-nodo321 -> nodo528;
-
-nodo190 -> nodo321;
-
-nodo115 -> nodo190;
-
-nodo68 -> nodo115;
+Escapados:\n
+posicion:\nA9
+}"]
+nodo68[label="{EO: 68|cost: 7.0|A: GoA8|Posicion:\nD8
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo40 -> nodo68;
+nodo69[label="{EO: 69|cost: 7.0|A: GoD9|Posicion:\nD8
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo40 -> nodo69;
 
 nodo24 -> nodo40;
 nodo41[label="{EO: 41|cost: 6.0|A: GoE7|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo69[label="{EO: 69|cost: 7.0|A: GoE6|Posicion:\nE7
+Escapados:\n
+posicion:\nA9
+}"]
+nodo70[label="{EO: 70|cost: 7.0|A: GoE6|Posicion:\nE7
 Infectados:\n0
-Escapados:\n2}"]
-nodo116[label="{EO: 116|cost: 8.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo191[label="{EO: 191|cost: 9.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo322[label="{EO: 322|cost: 10.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo191 -> nodo322;
-nodo323[label="{EO: 323|cost: 10.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo529[label="{EO: 529|cost: 11.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo882[label="{EO: 882|cost: 12.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo529 -> nodo882;
-
-nodo323 -> nodo529;
-nodo530[label="{EO: 530|cost: 11.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo883[label="{EO: 883|cost: 12.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo530 -> nodo883;
-
-nodo323 -> nodo530;
-
-nodo191 -> nodo323;
-
-nodo116 -> nodo191;
-nodo192[label="{EO: 192|cost: 9.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo324[label="{EO: 324|cost: 10.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo531[label="{EO: 531|cost: 11.0|A: GoG6|Posicion:\nF6
-Infectados:\n0
-Escapados:\n2}"]
-nodo884[label="{EO: 884|cost: 12.0|A: GoG7|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo531 -> nodo884;
-nodo885[label="{EO: 885|cost: 12.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo531 -> nodo885;
-
-nodo324 -> nodo531;
-
-nodo192 -> nodo324;
-nodo325[label="{EO: 325|cost: 10.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo532[label="{EO: 532|cost: 11.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo886[label="{EO: 886|cost: 12.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo532 -> nodo886;
-nodo887[label="{EO: 887|cost: 12.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo532 -> nodo887;
-
-nodo325 -> nodo532;
-nodo533[label="{EO: 533|cost: 11.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo888[label="{EO: 888|cost: 12.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo533 -> nodo888;
-nodo889[label="{EO: 889|cost: 12.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo533 -> nodo889;
-
-nodo325 -> nodo533;
-
-nodo192 -> nodo325;
-
-nodo116 -> nodo192;
-
-nodo69 -> nodo116;
-
-nodo41 -> nodo69;
-nodo70[label="{EO: 70|cost: 7.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo117[label="{EO: 117|cost: 8.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo193[label="{EO: 193|cost: 9.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo326[label="{EO: 326|cost: 10.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo534[label="{EO: 534|cost: 11.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo890[label="{EO: 890|cost: 12.0|A: GoA7|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo534 -> nodo890;
-nodo891[label="{EO: 891|cost: 12.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo534 -> nodo891;
-
-nodo326 -> nodo534;
-nodo535[label="{EO: 535|cost: 11.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo892[label="{EO: 892|cost: 12.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo535 -> nodo892;
-nodo893[label="{EO: 893|cost: 12.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo535 -> nodo893;
-
-nodo326 -> nodo535;
-
-nodo193 -> nodo326;
-
-nodo117 -> nodo193;
-nodo194[label="{EO: 194|cost: 9.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo327[label="{EO: 327|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo536[label="{EO: 536|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo894[label="{EO: 894|cost: 12.0|A: GoD10|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo536 -> nodo894;
-nodo895[label="{EO: 895|cost: 12.0|A: GoE9|Posicion:\nE10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo536 -> nodo895;
-
-nodo327 -> nodo536;
-nodo537[label="{EO: 537|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-nodo896[label="{EO: 896|cost: 12.0|A: GoF12|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo537 -> nodo896;
-nodo897[label="{EO: 897|cost: 12.0|A: GoH11|Posicion:\nF11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo537 -> nodo897;
-
-nodo327 -> nodo537;
-
-nodo194 -> nodo327;
-nodo328[label="{EO: 328|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo538[label="{EO: 538|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo898[label="{EO: 898|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo538 -> nodo898;
-
-nodo328 -> nodo538;
-nodo539[label="{EO: 539|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-nodo899[label="{EO: 899|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo539 -> nodo899;
-nodo900[label="{EO: 900|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo539 -> nodo900;
-
-nodo328 -> nodo539;
-
-nodo194 -> nodo328;
-
-nodo117 -> nodo194;
-
-nodo70 -> nodo117;
-nodo118[label="{EO: 118|cost: 8.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo195[label="{EO: 195|cost: 9.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo329[label="{EO: 329|cost: 10.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo540[label="{EO: 540|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo901[label="{EO: 901|cost: 12.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo540 -> nodo901;
-nodo902[label="{EO: 902|cost: 12.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo540 -> nodo902;
-
-nodo329 -> nodo540;
-nodo541[label="{EO: 541|cost: 11.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo903[label="{EO: 903|cost: 12.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo541 -> nodo903;
-nodo904[label="{EO: 904|cost: 12.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo541 -> nodo904;
-
-nodo329 -> nodo541;
-
-nodo195 -> nodo329;
-
-nodo118 -> nodo195;
-nodo196[label="{EO: 196|cost: 9.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo330[label="{EO: 330|cost: 10.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-nodo542[label="{EO: 542|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo905[label="{EO: 905|cost: 12.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo542 -> nodo905;
-nodo906[label="{EO: 906|cost: 12.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo542 -> nodo906;
-
-nodo330 -> nodo542;
-nodo543[label="{EO: 543|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo907[label="{EO: 907|cost: 12.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo543 -> nodo907;
-nodo908[label="{EO: 908|cost: 12.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo543 -> nodo908;
-
-nodo330 -> nodo543;
-
-nodo196 -> nodo330;
-
-nodo118 -> nodo196;
-
-nodo70 -> nodo118;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo41 -> nodo70;
+nodo71[label="{EO: 71|cost: 7.0|A: GoF7|Posicion:\nE7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo41 -> nodo71;
 
 nodo24 -> nodo41;
 
@@ -1978,723 +220,82 @@ nodo14 -> nodo24;
 nodo8 -> nodo14;
 nodo15[label="{EO: 15|cost: 4.0|A: GoE5|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo25[label="{EO: 25|cost: 5.0|A: GoE3|Posicion:\nE5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo42[label="{EO: 42|cost: 6.0|A: GoD3|Posicion:\nE3
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo25 -> nodo42;
 nodo43[label="{EO: 43|cost: 6.0|A: GoE2|Posicion:\nE3
 Infectados:\n0
-Escapados:\n2}"]
-nodo71[label="{EO: 71|cost: 7.0|A: GoE1|Posicion:\nE2
+Escapados:\n
+posicion:\nA9
+}"]
+nodo72[label="{EO: 72|cost: 7.0|A: GoE1|Posicion:\nE2
 Infectados:\n0
-Escapados:\n2}"]
-nodo119[label="{EO: 119|cost: 8.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-nodo197[label="{EO: 197|cost: 9.0|A: GoA1|Posicion:\nD1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo119 -> nodo197;
-nodo198[label="{EO: 198|cost: 9.0|A: GoD2|Posicion:\nD1
-Infectados:\n0
-Escapados:\n2}"]
-nodo331[label="{EO: 331|cost: 10.0|A: GoD3|Posicion:\nD2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo198 -> nodo331;
-
-nodo119 -> nodo198;
-
-nodo71 -> nodo119;
-
-nodo43 -> nodo71;
-nodo72[label="{EO: 72|cost: 7.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo120[label="{EO: 120|cost: 8.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-nodo199[label="{EO: 199|cost: 9.0|A: GoH1|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo332[label="{EO: 332|cost: 10.0|A: GoF1|Posicion:\nH1
-Infectados:\n0
-Escapados:\n2}"]
-nodo544[label="{EO: 544|cost: 11.0|A: GoE1|Posicion:\nF1
-Infectados:\n0
-Escapados:\n2}"]
-nodo909[label="{EO: 909|cost: 12.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo544 -> nodo909;
-
-nodo332 -> nodo544;
-
-nodo199 -> nodo332;
-
-nodo120 -> nodo199;
-nodo200[label="{EO: 200|cost: 9.0|A: GoI2|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo333[label="{EO: 333|cost: 10.0|A: GoI3|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo545[label="{EO: 545|cost: 11.0|A: GoH3|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-nodo910[label="{EO: 910|cost: 12.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo545 -> nodo910;
-
-nodo333 -> nodo545;
-nodo546[label="{EO: 546|cost: 11.0|A: GoI5|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-nodo911[label="{EO: 911|cost: 12.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo546 -> nodo911;
-nodo912[label="{EO: 912|cost: 12.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo546 -> nodo912;
-
-nodo333 -> nodo546;
-
-nodo200 -> nodo333;
-nodo334[label="{EO: 334|cost: 10.0|A: GoJ2|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo547[label="{EO: 547|cost: 11.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-nodo913[label="{EO: 913|cost: 12.0|A: GoI1|Posicion:\nJ1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo547 -> nodo913;
-
-nodo334 -> nodo547;
-nodo548[label="{EO: 548|cost: 11.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-nodo914[label="{EO: 914|cost: 12.0|A: GoK3|Posicion:\nK2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo548 -> nodo914;
-nodo915[label="{EO: 915|cost: 12.0|A: GoL2|Posicion:\nK2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo548 -> nodo915;
-
-nodo334 -> nodo548;
-
-nodo200 -> nodo334;
-
-nodo120 -> nodo200;
-
-nodo72 -> nodo120;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo43 -> nodo72;
+nodo73[label="{EO: 73|cost: 7.0|A: GoF2|Posicion:\nE2
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo43 -> nodo73;
 
 nodo25 -> nodo43;
 
 nodo15 -> nodo25;
 nodo26[label="{EO: 26|cost: 5.0|A: GoF5|Posicion:\nE5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo44[label="{EO: 44|cost: 6.0|A: GoF6|Posicion:\nF5
 Infectados:\n0
-Escapados:\n2}"]
-nodo73[label="{EO: 73|cost: 7.0|A: GoG6|Posicion:\nF6
+Escapados:\n
+posicion:\nA9
+}"]
+nodo74[label="{EO: 74|cost: 7.0|A: GoG6|Posicion:\nF6
 Infectados:\n0
-Escapados:\n2}"]
-nodo121[label="{EO: 121|cost: 8.0|A: GoG7|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo201[label="{EO: 201|cost: 9.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo335[label="{EO: 335|cost: 10.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-nodo549[label="{EO: 549|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo916[label="{EO: 916|cost: 12.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
-nodo549 -> nodo916;
-nodo917[label="{EO: 917|cost: 12.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo549 -> nodo917;
-
-nodo335 -> nodo549;
-nodo550[label="{EO: 550|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo918[label="{EO: 918|cost: 12.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo550 -> nodo918;
-nodo919[label="{EO: 919|cost: 12.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo550 -> nodo919;
-
-nodo335 -> nodo550;
-
-nodo201 -> nodo335;
-
-nodo121 -> nodo201;
-
-nodo73 -> nodo121;
-nodo122[label="{EO: 122|cost: 8.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo202[label="{EO: 202|cost: 9.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo336[label="{EO: 336|cost: 10.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo551[label="{EO: 551|cost: 11.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo920[label="{EO: 920|cost: 12.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo551 -> nodo920;
-nodo921[label="{EO: 921|cost: 12.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo551 -> nodo921;
-
-nodo336 -> nodo551;
-nodo552[label="{EO: 552|cost: 11.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo922[label="{EO: 922|cost: 12.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo552 -> nodo922;
-nodo923[label="{EO: 923|cost: 12.0|A: GoH2|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo552 -> nodo923;
-
-nodo336 -> nodo552;
-
-nodo202 -> nodo336;
-nodo337[label="{EO: 337|cost: 10.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo553[label="{EO: 553|cost: 11.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo924[label="{EO: 924|cost: 12.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo553 -> nodo924;
-nodo925[label="{EO: 925|cost: 12.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo553 -> nodo925;
-
-nodo337 -> nodo553;
-nodo554[label="{EO: 554|cost: 11.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo926[label="{EO: 926|cost: 12.0|A: GoJ3|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo554 -> nodo926;
-nodo927[label="{EO: 927|cost: 12.0|A: GoK5|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo554 -> nodo927;
-
-nodo337 -> nodo554;
-
-nodo202 -> nodo337;
-
-nodo122 -> nodo202;
-nodo203[label="{EO: 203|cost: 9.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo338[label="{EO: 338|cost: 10.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo555[label="{EO: 555|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo928[label="{EO: 928|cost: 12.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo555 -> nodo928;
-nodo929[label="{EO: 929|cost: 12.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo555 -> nodo929;
-
-nodo338 -> nodo555;
-nodo556[label="{EO: 556|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo930[label="{EO: 930|cost: 12.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo556 -> nodo930;
-nodo931[label="{EO: 931|cost: 12.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo556 -> nodo931;
-
-nodo338 -> nodo556;
-
-nodo203 -> nodo338;
-nodo339[label="{EO: 339|cost: 10.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo557[label="{EO: 557|cost: 11.0|A: GoH6|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo932[label="{EO: 932|cost: 12.0|A: GoH5|Posicion:\nH6
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo557 -> nodo932;
-
-nodo339 -> nodo557;
-nodo558[label="{EO: 558|cost: 11.0|A: GoI7|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo933[label="{EO: 933|cost: 12.0|A: GoI8|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo558 -> nodo933;
-nodo934[label="{EO: 934|cost: 12.0|A: GoJ7|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo558 -> nodo934;
-nodo935[label="{EO: 935|cost: 12.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo558 -> nodo935;
-
-nodo339 -> nodo558;
-
-nodo203 -> nodo339;
-
-nodo122 -> nodo203;
-
-nodo73 -> nodo122;
-
-nodo44 -> nodo73;
+nodo44 -> nodo74;
 
 nodo26 -> nodo44;
 nodo45[label="{EO: 45|cost: 6.0|A: GoH5|Posicion:\nF5
 Infectados:\n0
-Escapados:\n2}"]
-nodo74[label="{EO: 74|cost: 7.0|A: GoH4|Posicion:\nH5
+Escapados:\n
+posicion:\nA9
+}"]
+nodo75[label="{EO: 75|cost: 7.0|A: GoH4|Posicion:\nH5
 Infectados:\n0
-Escapados:\n2}"]
-nodo123[label="{EO: 123|cost: 8.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo204[label="{EO: 204|cost: 9.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo340[label="{EO: 340|cost: 10.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo204 -> nodo340;
-nodo341[label="{EO: 341|cost: 10.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo559[label="{EO: 559|cost: 11.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo936[label="{EO: 936|cost: 12.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo559 -> nodo936;
-
-nodo341 -> nodo559;
-nodo560[label="{EO: 560|cost: 11.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo937[label="{EO: 937|cost: 12.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo560 -> nodo937;
-
-nodo341 -> nodo560;
-
-nodo204 -> nodo341;
-
-nodo123 -> nodo204;
-nodo205[label="{EO: 205|cost: 9.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo123 -> nodo205;
-
-nodo74 -> nodo123;
-nodo124[label="{EO: 124|cost: 8.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo206[label="{EO: 206|cost: 9.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-nodo342[label="{EO: 342|cost: 10.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo561[label="{EO: 561|cost: 11.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo342 -> nodo561;
-nodo562[label="{EO: 562|cost: 11.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo938[label="{EO: 938|cost: 12.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo562 -> nodo938;
-nodo939[label="{EO: 939|cost: 12.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo562 -> nodo939;
-
-nodo342 -> nodo562;
-
-nodo206 -> nodo342;
-nodo343[label="{EO: 343|cost: 10.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo206 -> nodo343;
-
-nodo124 -> nodo206;
-nodo207[label="{EO: 207|cost: 9.0|A: GoH2|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-nodo344[label="{EO: 344|cost: 10.0|A: GoH1|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo563[label="{EO: 563|cost: 11.0|A: GoF1|Posicion:\nH1
-Infectados:\n0
-Escapados:\n2}"]
-nodo940[label="{EO: 940|cost: 12.0|A: GoE1|Posicion:\nF1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo563 -> nodo940;
-nodo941[label="{EO: 941|cost: 12.0|A: GoF2|Posicion:\nF1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo563 -> nodo941;
-
-nodo344 -> nodo563;
-
-nodo207 -> nodo344;
-nodo345[label="{EO: 345|cost: 10.0|A: GoI2|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo564[label="{EO: 564|cost: 11.0|A: GoI3|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo942[label="{EO: 942|cost: 12.0|A: GoI5|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo564 -> nodo942;
-
-nodo345 -> nodo564;
-nodo565[label="{EO: 565|cost: 11.0|A: GoJ2|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo943[label="{EO: 943|cost: 12.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo565 -> nodo943;
-nodo944[label="{EO: 944|cost: 12.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo565 -> nodo944;
-
-nodo345 -> nodo565;
-
-nodo207 -> nodo345;
-
-nodo124 -> nodo207;
-
-nodo74 -> nodo124;
-
-nodo45 -> nodo74;
-nodo75[label="{EO: 75|cost: 7.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo125[label="{EO: 125|cost: 8.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo208[label="{EO: 208|cost: 9.0|A: GoH6|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo125 -> nodo208;
-nodo209[label="{EO: 209|cost: 9.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo346[label="{EO: 346|cost: 10.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo566[label="{EO: 566|cost: 11.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-nodo945[label="{EO: 945|cost: 12.0|A: GoF8|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo566 -> nodo945;
-nodo946[label="{EO: 946|cost: 12.0|A: GoH7|Posicion:\nH8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo566 -> nodo946;
-
-nodo346 -> nodo566;
-nodo567[label="{EO: 567|cost: 11.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-nodo947[label="{EO: 947|cost: 12.0|A: GoI10|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo567 -> nodo947;
-nodo948[label="{EO: 948|cost: 12.0|A: GoJ9|Posicion:\nI9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo567 -> nodo948;
-
-nodo346 -> nodo567;
-
-nodo209 -> nodo346;
-nodo347[label="{EO: 347|cost: 10.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo568[label="{EO: 568|cost: 11.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-nodo949[label="{EO: 949|cost: 12.0|A: GoJ5|Posicion:\nJ6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo568 -> nodo949;
-
-nodo347 -> nodo568;
-nodo569[label="{EO: 569|cost: 11.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-nodo950[label="{EO: 950|cost: 12.0|A: GoK8|Posicion:\nK7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo569 -> nodo950;
-nodo951[label="{EO: 951|cost: 12.0|A: GoL7|Posicion:\nK7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo569 -> nodo951;
-
-nodo347 -> nodo569;
-
-nodo209 -> nodo347;
-
-nodo125 -> nodo209;
-nodo210[label="{EO: 210|cost: 9.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo348[label="{EO: 348|cost: 10.0|A: GoH6|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo570[label="{EO: 570|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n1
-Escapados:\n1}"]
-nodo952[label="{EO: 952|cost: 12.0|A: GoH4|Posicion:\nH5
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo570 -> nodo952;
-nodo953[label="{EO: 953|cost: 12.0|A: GoI5|Posicion:\nH5
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo570 -> nodo953;
-
-nodo348 -> nodo570;
-
-nodo210 -> nodo348;
-nodo349[label="{EO: 349|cost: 10.0|A: GoI7|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo571[label="{EO: 571|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-nodo954[label="{EO: 954|cost: 12.0|A: GoH8|Posicion:\nI8
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo571 -> nodo954;
-nodo955[label="{EO: 955|cost: 12.0|A: GoI9|Posicion:\nI8
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo571 -> nodo955;
-
-nodo349 -> nodo571;
-nodo572[label="{EO: 572|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-nodo956[label="{EO: 956|cost: 12.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo572 -> nodo956;
-nodo957[label="{EO: 957|cost: 12.0|A: GoK7|Posicion:\nJ7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo572 -> nodo957;
-
-nodo349 -> nodo572;
-nodo573[label="{EO: 573|cost: 11.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo349 -> nodo573;
-
-nodo210 -> nodo349;
-
-nodo125 -> nodo210;
-
-nodo75 -> nodo125;
-nodo126[label="{EO: 126|cost: 8.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo211[label="{EO: 211|cost: 9.0|A: GoJ3|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo350[label="{EO: 350|cost: 10.0|A: GoI3|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo574[label="{EO: 574|cost: 11.0|A: GoH3|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo350 -> nodo574;
-
-nodo211 -> nodo350;
-nodo351[label="{EO: 351|cost: 10.0|A: GoJ2|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo575[label="{EO: 575|cost: 11.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo351 -> nodo575;
-nodo576[label="{EO: 576|cost: 11.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo351 -> nodo576;
-
-nodo211 -> nodo351;
-
-nodo126 -> nodo211;
-nodo212[label="{EO: 212|cost: 9.0|A: GoK5|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo352[label="{EO: 352|cost: 10.0|A: GoK6|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo577[label="{EO: 577|cost: 11.0|A: GoJ6|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo352 -> nodo577;
-nodo578[label="{EO: 578|cost: 11.0|A: GoK7|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo352 -> nodo578;
-
-nodo212 -> nodo352;
-nodo353[label="{EO: 353|cost: 10.0|A: GoL5|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo579[label="{EO: 579|cost: 11.0|A: GoL3|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo353 -> nodo579;
-nodo580[label="{EO: 580|cost: 11.0|A: GoM5|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo353 -> nodo580;
-
-nodo212 -> nodo353;
-
-nodo126 -> nodo212;
-
-nodo75 -> nodo126;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo45 -> nodo75;
+nodo76[label="{EO: 76|cost: 7.0|A: GoI5|Posicion:\nH5
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo45 -> nodo76;
 
 nodo26 -> nodo45;
 
@@ -2710,589 +311,92 @@ nodo0 -> nodo2;
 nodo3[label="{EO: 3|cost: 1.0|A: GoD2}"]
 nodo5[label="{EO: 5|cost: 2.0|A: GoD3|Posicion:\nD2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo9[label="{EO: 9|cost: 3.0|A: GoA3|Posicion:\nD3
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo16[label="{EO: 16|cost: 4.0|A: GoA5|Posicion:\nA3
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo27[label="{EO: 27|cost: 5.0|A: GoA6|Posicion:\nA5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo46[label="{EO: 46|cost: 6.0|A: GoA7|Posicion:\nA6
 Infectados:\n0
-Escapados:\n2}"]
-nodo76[label="{EO: 76|cost: 7.0|A: GoA8|Posicion:\nA7
+Escapados:\n
+posicion:\nA9
+}"]
+nodo77[label="{EO: 77|cost: 7.0|A: GoA8|Posicion:\nA7
 Infectados:\n0
-Escapados:\n2}"]
-nodo127[label="{EO: 127|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo213[label="{EO: 213|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo354[label="{EO: 354|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo581[label="{EO: 581|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo354 -> nodo581;
-
-nodo213 -> nodo354;
-
-nodo127 -> nodo213;
-nodo214[label="{EO: 214|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo355[label="{EO: 355|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo582[label="{EO: 582|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo355 -> nodo582;
-nodo583[label="{EO: 583|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo355 -> nodo583;
-
-nodo214 -> nodo355;
-nodo356[label="{EO: 356|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo584[label="{EO: 584|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo356 -> nodo584;
-nodo585[label="{EO: 585|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo356 -> nodo585;
-
-nodo214 -> nodo356;
-
-nodo127 -> nodo214;
-
-nodo76 -> nodo127;
-
-nodo46 -> nodo76;
-nodo77[label="{EO: 77|cost: 7.0|A: GoD7|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo128[label="{EO: 128|cost: 8.0|A: GoD8|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo215[label="{EO: 215|cost: 9.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo357[label="{EO: 357|cost: 10.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo586[label="{EO: 586|cost: 11.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo357 -> nodo586;
-nodo587[label="{EO: 587|cost: 11.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo357 -> nodo587;
-
-nodo215 -> nodo357;
-
-nodo128 -> nodo215;
-nodo216[label="{EO: 216|cost: 9.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo358[label="{EO: 358|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo588[label="{EO: 588|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo358 -> nodo588;
-nodo589[label="{EO: 589|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo358 -> nodo589;
-
-nodo216 -> nodo358;
-nodo359[label="{EO: 359|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo590[label="{EO: 590|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo359 -> nodo590;
-nodo591[label="{EO: 591|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo359 -> nodo591;
-
-nodo216 -> nodo359;
-
-nodo128 -> nodo216;
-
-nodo77 -> nodo128;
-nodo129[label="{EO: 129|cost: 8.0|A: GoE7|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo217[label="{EO: 217|cost: 9.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo360[label="{EO: 360|cost: 10.0|A: GoD6|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo217 -> nodo360;
-nodo361[label="{EO: 361|cost: 10.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo592[label="{EO: 592|cost: 11.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo361 -> nodo592;
-nodo593[label="{EO: 593|cost: 11.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo361 -> nodo593;
-
-nodo217 -> nodo361;
-
-nodo129 -> nodo217;
-nodo218[label="{EO: 218|cost: 9.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo362[label="{EO: 362|cost: 10.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo594[label="{EO: 594|cost: 11.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo362 -> nodo594;
-nodo595[label="{EO: 595|cost: 11.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo362 -> nodo595;
-
-nodo218 -> nodo362;
-nodo363[label="{EO: 363|cost: 10.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo596[label="{EO: 596|cost: 11.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo363 -> nodo596;
-nodo597[label="{EO: 597|cost: 11.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo363 -> nodo597;
-
-nodo218 -> nodo363;
-
-nodo129 -> nodo218;
-
-nodo77 -> nodo129;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo46 -> nodo77;
+nodo78[label="{EO: 78|cost: 7.0|A: GoD7|Posicion:\nA7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo46 -> nodo78;
 
 nodo27 -> nodo46;
 
 nodo16 -> nodo27;
 nodo28[label="{EO: 28|cost: 5.0|A: GoD5|Posicion:\nA5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo47[label="{EO: 47|cost: 6.0|A: GoD6|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
-nodo78[label="{EO: 78|cost: 7.0|A: GoA6|Posicion:\nD6
+Escapados:\n
+posicion:\nA9
+}"]
+nodo79[label="{EO: 79|cost: 7.0|A: GoA6|Posicion:\nD6
 Infectados:\n0
-Escapados:\n2}"]
-nodo130[label="{EO: 130|cost: 8.0|A: GoA7|Posicion:\nA6
-Infectados:\n0
-Escapados:\n2}"]
-nodo219[label="{EO: 219|cost: 9.0|A: GoA8|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo364[label="{EO: 364|cost: 10.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo598[label="{EO: 598|cost: 11.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo364 -> nodo598;
-nodo599[label="{EO: 599|cost: 11.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo364 -> nodo599;
-
-nodo219 -> nodo364;
-
-nodo130 -> nodo219;
-nodo220[label="{EO: 220|cost: 9.0|A: GoD7|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo365[label="{EO: 365|cost: 10.0|A: GoD8|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo600[label="{EO: 600|cost: 11.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo365 -> nodo600;
-nodo601[label="{EO: 601|cost: 11.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo365 -> nodo601;
-
-nodo220 -> nodo365;
-nodo366[label="{EO: 366|cost: 10.0|A: GoE7|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo602[label="{EO: 602|cost: 11.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo366 -> nodo602;
-nodo603[label="{EO: 603|cost: 11.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo366 -> nodo603;
-
-nodo220 -> nodo366;
-
-nodo130 -> nodo220;
-
-nodo78 -> nodo130;
-
-nodo47 -> nodo78;
-nodo79[label="{EO: 79|cost: 7.0|A: GoD7|Posicion:\nD6
-Infectados:\n0
-Escapados:\n2}"]
-nodo131[label="{EO: 131|cost: 8.0|A: GoD8|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo221[label="{EO: 221|cost: 9.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo367[label="{EO: 367|cost: 10.0|A: GoA7|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo604[label="{EO: 604|cost: 11.0|A: GoA6|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo367 -> nodo604;
-
-nodo221 -> nodo367;
-nodo368[label="{EO: 368|cost: 10.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo605[label="{EO: 605|cost: 11.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo368 -> nodo605;
-nodo606[label="{EO: 606|cost: 11.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo368 -> nodo606;
-
-nodo221 -> nodo368;
-
-nodo131 -> nodo221;
-nodo222[label="{EO: 222|cost: 9.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo369[label="{EO: 369|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo607[label="{EO: 607|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo369 -> nodo607;
-nodo608[label="{EO: 608|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo369 -> nodo608;
-
-nodo222 -> nodo369;
-nodo370[label="{EO: 370|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo609[label="{EO: 609|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo370 -> nodo609;
-nodo610[label="{EO: 610|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo370 -> nodo610;
-
-nodo222 -> nodo370;
-
-nodo131 -> nodo222;
-
-nodo79 -> nodo131;
-nodo132[label="{EO: 132|cost: 8.0|A: GoE7|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo223[label="{EO: 223|cost: 9.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo371[label="{EO: 371|cost: 10.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo611[label="{EO: 611|cost: 11.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo371 -> nodo611;
-nodo612[label="{EO: 612|cost: 11.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo371 -> nodo612;
-
-nodo223 -> nodo371;
-
-nodo132 -> nodo223;
-nodo224[label="{EO: 224|cost: 9.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo372[label="{EO: 372|cost: 10.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo613[label="{EO: 613|cost: 11.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo372 -> nodo613;
-nodo614[label="{EO: 614|cost: 11.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo372 -> nodo614;
-
-nodo224 -> nodo372;
-nodo373[label="{EO: 373|cost: 10.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo615[label="{EO: 615|cost: 11.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo373 -> nodo615;
-nodo616[label="{EO: 616|cost: 11.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo373 -> nodo616;
-
-nodo224 -> nodo373;
-
-nodo132 -> nodo224;
-
-nodo79 -> nodo132;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo47 -> nodo79;
+nodo80[label="{EO: 80|cost: 7.0|A: GoD7|Posicion:\nD6
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo47 -> nodo80;
 
 nodo28 -> nodo47;
 nodo48[label="{EO: 48|cost: 6.0|A: GoE5|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
-nodo80[label="{EO: 80|cost: 7.0|A: GoE3|Posicion:\nE5
+Escapados:\n
+posicion:\nA9
+}"]
+nodo81[label="{EO: 81|cost: 7.0|A: GoE3|Posicion:\nE5
 Infectados:\n0
-Escapados:\n2}"]
-nodo133[label="{EO: 133|cost: 8.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo225[label="{EO: 225|cost: 9.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo374[label="{EO: 374|cost: 10.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-nodo617[label="{EO: 617|cost: 11.0|A: GoA1|Posicion:\nD1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo374 -> nodo617;
-
-nodo225 -> nodo374;
-
-nodo133 -> nodo225;
-nodo226[label="{EO: 226|cost: 9.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo375[label="{EO: 375|cost: 10.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-nodo618[label="{EO: 618|cost: 11.0|A: GoH1|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo375 -> nodo618;
-nodo619[label="{EO: 619|cost: 11.0|A: GoI2|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo375 -> nodo619;
-
-nodo226 -> nodo375;
-
-nodo133 -> nodo226;
-
-nodo80 -> nodo133;
-
-nodo48 -> nodo80;
-nodo81[label="{EO: 81|cost: 7.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo134[label="{EO: 134|cost: 8.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo227[label="{EO: 227|cost: 9.0|A: GoG6|Posicion:\nF6
-Infectados:\n0
-Escapados:\n2}"]
-nodo376[label="{EO: 376|cost: 10.0|A: GoG7|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo620[label="{EO: 620|cost: 11.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo376 -> nodo620;
-
-nodo227 -> nodo376;
-nodo377[label="{EO: 377|cost: 10.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo621[label="{EO: 621|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo377 -> nodo621;
-nodo622[label="{EO: 622|cost: 11.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo377 -> nodo622;
-
-nodo227 -> nodo377;
-
-nodo134 -> nodo227;
-
-nodo81 -> nodo134;
-nodo135[label="{EO: 135|cost: 8.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo228[label="{EO: 228|cost: 9.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo378[label="{EO: 378|cost: 10.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo623[label="{EO: 623|cost: 11.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo378 -> nodo623;
-nodo624[label="{EO: 624|cost: 11.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo378 -> nodo624;
-
-nodo228 -> nodo378;
-nodo379[label="{EO: 379|cost: 10.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo625[label="{EO: 625|cost: 11.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo379 -> nodo625;
-nodo626[label="{EO: 626|cost: 11.0|A: GoH2|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo379 -> nodo626;
-
-nodo228 -> nodo379;
-
-nodo135 -> nodo228;
-nodo229[label="{EO: 229|cost: 9.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo380[label="{EO: 380|cost: 10.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo627[label="{EO: 627|cost: 11.0|A: GoH6|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo380 -> nodo627;
-nodo628[label="{EO: 628|cost: 11.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo380 -> nodo628;
-nodo629[label="{EO: 629|cost: 11.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo380 -> nodo629;
-
-nodo229 -> nodo380;
-nodo381[label="{EO: 381|cost: 10.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo630[label="{EO: 630|cost: 11.0|A: GoJ3|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo381 -> nodo630;
-nodo631[label="{EO: 631|cost: 11.0|A: GoK5|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo381 -> nodo631;
-
-nodo229 -> nodo381;
-
-nodo135 -> nodo229;
-
-nodo81 -> nodo135;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo48 -> nodo81;
+nodo82[label="{EO: 82|cost: 7.0|A: GoF5|Posicion:\nE5
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo48 -> nodo82;
 
 nodo28 -> nodo48;
 
@@ -3303,601 +407,101 @@ nodo9 -> nodo16;
 nodo5 -> nodo9;
 nodo10[label="{EO: 10|cost: 3.0|A: GoD5|Posicion:\nD3
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo17[label="{EO: 17|cost: 4.0|A: GoD6|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo29[label="{EO: 29|cost: 5.0|A: GoA6|Posicion:\nD6
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo49[label="{EO: 49|cost: 6.0|A: GoA5|Posicion:\nA6
 Infectados:\n0
-Escapados:\n2}"]
-nodo82[label="{EO: 82|cost: 7.0|A: GoA3|Posicion:\nA5
+Escapados:\n
+posicion:\nA9
+}"]
+nodo83[label="{EO: 83|cost: 7.0|A: GoA3|Posicion:\nA5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
-nodo49 -> nodo82;
+nodo49 -> nodo83;
 
 nodo29 -> nodo49;
 nodo50[label="{EO: 50|cost: 6.0|A: GoA7|Posicion:\nA6
 Infectados:\n0
-Escapados:\n2}"]
-nodo83[label="{EO: 83|cost: 7.0|A: GoA8|Posicion:\nA7
+Escapados:\n
+posicion:\nA9
+}"]
+nodo84[label="{EO: 84|cost: 7.0|A: GoA8|Posicion:\nA7
 Infectados:\n0
-Escapados:\n2}"]
-nodo136[label="{EO: 136|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo230[label="{EO: 230|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo382[label="{EO: 382|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo632[label="{EO: 632|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo382 -> nodo632;
-
-nodo230 -> nodo382;
-
-nodo136 -> nodo230;
-nodo231[label="{EO: 231|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo383[label="{EO: 383|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo633[label="{EO: 633|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo383 -> nodo633;
-nodo634[label="{EO: 634|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo383 -> nodo634;
-
-nodo231 -> nodo383;
-nodo384[label="{EO: 384|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo635[label="{EO: 635|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo384 -> nodo635;
-nodo636[label="{EO: 636|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo384 -> nodo636;
-
-nodo231 -> nodo384;
-
-nodo136 -> nodo231;
-
-nodo83 -> nodo136;
-
-nodo50 -> nodo83;
-nodo84[label="{EO: 84|cost: 7.0|A: GoD7|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo137[label="{EO: 137|cost: 8.0|A: GoD8|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo232[label="{EO: 232|cost: 9.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo385[label="{EO: 385|cost: 10.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo637[label="{EO: 637|cost: 11.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo385 -> nodo637;
-nodo638[label="{EO: 638|cost: 11.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo385 -> nodo638;
-
-nodo232 -> nodo385;
-
-nodo137 -> nodo232;
-nodo233[label="{EO: 233|cost: 9.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo386[label="{EO: 386|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo639[label="{EO: 639|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo386 -> nodo639;
-nodo640[label="{EO: 640|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo386 -> nodo640;
-
-nodo233 -> nodo386;
-nodo387[label="{EO: 387|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo641[label="{EO: 641|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo387 -> nodo641;
-nodo642[label="{EO: 642|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo387 -> nodo642;
-
-nodo233 -> nodo387;
-
-nodo137 -> nodo233;
-
-nodo84 -> nodo137;
-nodo138[label="{EO: 138|cost: 8.0|A: GoE7|Posicion:\nD7
-Infectados:\n0
-Escapados:\n2}"]
-nodo234[label="{EO: 234|cost: 9.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo388[label="{EO: 388|cost: 10.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo643[label="{EO: 643|cost: 11.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo388 -> nodo643;
-nodo644[label="{EO: 644|cost: 11.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo388 -> nodo644;
-
-nodo234 -> nodo388;
-
-nodo138 -> nodo234;
-nodo235[label="{EO: 235|cost: 9.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo389[label="{EO: 389|cost: 10.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo645[label="{EO: 645|cost: 11.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo389 -> nodo645;
-nodo646[label="{EO: 646|cost: 11.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo389 -> nodo646;
-
-nodo235 -> nodo389;
-nodo390[label="{EO: 390|cost: 10.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo647[label="{EO: 647|cost: 11.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo390 -> nodo647;
-nodo648[label="{EO: 648|cost: 11.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo390 -> nodo648;
-
-nodo235 -> nodo390;
-
-nodo138 -> nodo235;
-
-nodo84 -> nodo138;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo50 -> nodo84;
+nodo85[label="{EO: 85|cost: 7.0|A: GoD7|Posicion:\nA7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo50 -> nodo85;
 
 nodo29 -> nodo50;
 
 nodo17 -> nodo29;
 nodo30[label="{EO: 30|cost: 5.0|A: GoD7|Posicion:\nD6
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo51[label="{EO: 51|cost: 6.0|A: GoD8|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo85[label="{EO: 85|cost: 7.0|A: GoA8|Posicion:\nD8
+Escapados:\n
+posicion:\nA9
+}"]
+nodo86[label="{EO: 86|cost: 7.0|A: GoA8|Posicion:\nD8
 Infectados:\n0
-Escapados:\n2}"]
-nodo139[label="{EO: 139|cost: 8.0|A: GoA7|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo236[label="{EO: 236|cost: 9.0|A: GoA6|Posicion:\nA7
-Infectados:\n0
-Escapados:\n2}"]
-nodo391[label="{EO: 391|cost: 10.0|A: GoA5|Posicion:\nA6
-Infectados:\n0
-Escapados:\n2}"]
-nodo649[label="{EO: 649|cost: 11.0|A: GoA3|Posicion:\nA5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo391 -> nodo649;
-
-nodo236 -> nodo391;
-
-nodo139 -> nodo236;
-
-nodo85 -> nodo139;
-nodo140[label="{EO: 140|cost: 8.0|A: GoA9|Posicion:\nA8
-Infectados:\n0
-Escapados:\n2}"]
-nodo237[label="{EO: 237|cost: 9.0|A: GoA10|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo392[label="{EO: 392|cost: 10.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-nodo650[label="{EO: 650|cost: 11.0|A: GoA12|Posicion:\nA11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo392 -> nodo650;
-
-nodo237 -> nodo392;
-
-nodo140 -> nodo237;
-nodo238[label="{EO: 238|cost: 9.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n2}"]
-nodo393[label="{EO: 393|cost: 10.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo651[label="{EO: 651|cost: 11.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo393 -> nodo651;
-nodo652[label="{EO: 652|cost: 11.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo393 -> nodo652;
-
-nodo238 -> nodo393;
-nodo394[label="{EO: 394|cost: 10.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo653[label="{EO: 653|cost: 11.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo394 -> nodo653;
-nodo654[label="{EO: 654|cost: 11.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo394 -> nodo654;
-
-nodo238 -> nodo394;
-
-nodo140 -> nodo238;
-
-nodo85 -> nodo140;
-
-nodo51 -> nodo85;
-nodo86[label="{EO: 86|cost: 7.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-nodo141[label="{EO: 141|cost: 8.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo239[label="{EO: 239|cost: 9.0|A: GoC10|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo395[label="{EO: 395|cost: 10.0|A: GoA10|Posicion:\nC10
-Infectados:\n0
-Escapados:\n2}"]
-nodo655[label="{EO: 655|cost: 11.0|A: GoA9|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo395 -> nodo655;
-nodo656[label="{EO: 656|cost: 11.0|A: GoA11|Posicion:\nA10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo395 -> nodo656;
-
-nodo239 -> nodo395;
-
-nodo141 -> nodo239;
-nodo240[label="{EO: 240|cost: 9.0|A: GoD11|Posicion:\nD10
-Infectados:\n0
-Escapados:\n2}"]
-nodo396[label="{EO: 396|cost: 10.0|A: GoD12|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo657[label="{EO: 657|cost: 11.0|A: GoC12|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo396 -> nodo657;
-nodo658[label="{EO: 658|cost: 11.0|A: GoD13|Posicion:\nD12
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo396 -> nodo658;
-
-nodo240 -> nodo396;
-nodo397[label="{EO: 397|cost: 10.0|A: GoE11|Posicion:\nD11
-Infectados:\n0
-Escapados:\n2}"]
-nodo659[label="{EO: 659|cost: 11.0|A: GoE10|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo397 -> nodo659;
-nodo660[label="{EO: 660|cost: 11.0|A: GoF11|Posicion:\nE11
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo397 -> nodo660;
-
-nodo240 -> nodo397;
-
-nodo141 -> nodo240;
-
-nodo86 -> nodo141;
-nodo142[label="{EO: 142|cost: 8.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n2}"]
-nodo241[label="{EO: 241|cost: 9.0|A: GoE8|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo398[label="{EO: 398|cost: 10.0|A: GoE7|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo661[label="{EO: 661|cost: 11.0|A: GoE6|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo398 -> nodo661;
-nodo662[label="{EO: 662|cost: 11.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo398 -> nodo662;
-
-nodo241 -> nodo398;
-
-nodo142 -> nodo241;
-nodo242[label="{EO: 242|cost: 9.0|A: GoF9|Posicion:\nE9
-Infectados:\n0
-Escapados:\n2}"]
-nodo399[label="{EO: 399|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo663[label="{EO: 663|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo399 -> nodo663;
-nodo664[label="{EO: 664|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo399 -> nodo664;
-
-nodo242 -> nodo399;
-nodo400[label="{EO: 400|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo665[label="{EO: 665|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo400 -> nodo665;
-nodo666[label="{EO: 666|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo400 -> nodo666;
-
-nodo242 -> nodo400;
-
-nodo142 -> nodo242;
-
-nodo86 -> nodo142;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo51 -> nodo86;
+nodo87[label="{EO: 87|cost: 7.0|A: GoD9|Posicion:\nD8
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo51 -> nodo87;
 
 nodo30 -> nodo51;
 nodo52[label="{EO: 52|cost: 6.0|A: GoE7|Posicion:\nD7
 Infectados:\n0
-Escapados:\n2}"]
-nodo87[label="{EO: 87|cost: 7.0|A: GoE6|Posicion:\nE7
+Escapados:\n
+posicion:\nA9
+}"]
+nodo88[label="{EO: 88|cost: 7.0|A: GoE6|Posicion:\nE7
 Infectados:\n0
-Escapados:\n2}"]
-nodo143[label="{EO: 143|cost: 8.0|A: GoE5|Posicion:\nE6
-Infectados:\n0
-Escapados:\n2}"]
-nodo243[label="{EO: 243|cost: 9.0|A: GoE3|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo401[label="{EO: 401|cost: 10.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo667[label="{EO: 667|cost: 11.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo401 -> nodo667;
-nodo668[label="{EO: 668|cost: 11.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo401 -> nodo668;
-
-nodo243 -> nodo401;
-
-nodo143 -> nodo243;
-nodo244[label="{EO: 244|cost: 9.0|A: GoF5|Posicion:\nE5
-Infectados:\n0
-Escapados:\n2}"]
-nodo402[label="{EO: 402|cost: 10.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo669[label="{EO: 669|cost: 11.0|A: GoG6|Posicion:\nF6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo402 -> nodo669;
-
-nodo244 -> nodo402;
-nodo403[label="{EO: 403|cost: 10.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-nodo670[label="{EO: 670|cost: 11.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo403 -> nodo670;
-nodo671[label="{EO: 671|cost: 11.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo403 -> nodo671;
-
-nodo244 -> nodo403;
-
-nodo143 -> nodo244;
-
-nodo87 -> nodo143;
-
-nodo52 -> nodo87;
-nodo88[label="{EO: 88|cost: 7.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n2}"]
-nodo144[label="{EO: 144|cost: 8.0|A: GoF8|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo245[label="{EO: 245|cost: 9.0|A: GoE8|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo404[label="{EO: 404|cost: 10.0|A: GoD8|Posicion:\nE8
-Infectados:\n0
-Escapados:\n2}"]
-nodo672[label="{EO: 672|cost: 11.0|A: GoA8|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo404 -> nodo672;
-nodo673[label="{EO: 673|cost: 11.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo404 -> nodo673;
-
-nodo245 -> nodo404;
-
-nodo144 -> nodo245;
-nodo246[label="{EO: 246|cost: 9.0|A: GoF9|Posicion:\nF8
-Infectados:\n0
-Escapados:\n2}"]
-nodo405[label="{EO: 405|cost: 10.0|A: GoF10|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo674[label="{EO: 674|cost: 11.0|A: GoE10|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo405 -> nodo674;
-nodo675[label="{EO: 675|cost: 11.0|A: GoF11|Posicion:\nF10
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo405 -> nodo675;
-
-nodo246 -> nodo405;
-nodo406[label="{EO: 406|cost: 10.0|A: GoH9|Posicion:\nF9
-Infectados:\n0
-Escapados:\n2}"]
-nodo676[label="{EO: 676|cost: 11.0|A: GoH8|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo406 -> nodo676;
-nodo677[label="{EO: 677|cost: 11.0|A: GoI9|Posicion:\nH9
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo406 -> nodo677;
-
-nodo246 -> nodo406;
-
-nodo144 -> nodo246;
-
-nodo88 -> nodo144;
-nodo145[label="{EO: 145|cost: 8.0|A: GoG7|Posicion:\nF7
-Infectados:\n0
-Escapados:\n2}"]
-nodo247[label="{EO: 247|cost: 9.0|A: GoG6|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo407[label="{EO: 407|cost: 10.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo678[label="{EO: 678|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo407 -> nodo678;
-nodo679[label="{EO: 679|cost: 11.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo407 -> nodo679;
-
-nodo247 -> nodo407;
-
-nodo145 -> nodo247;
-nodo248[label="{EO: 248|cost: 9.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo408[label="{EO: 408|cost: 10.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-nodo680[label="{EO: 680|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo408 -> nodo680;
-nodo681[label="{EO: 681|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo408 -> nodo681;
-
-nodo248 -> nodo408;
-
-nodo145 -> nodo248;
-
-nodo88 -> nodo145;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo52 -> nodo88;
+nodo89[label="{EO: 89|cost: 7.0|A: GoF7|Posicion:\nE7
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo52 -> nodo89;
 
 nodo30 -> nodo52;
 
@@ -3906,453 +510,75 @@ nodo17 -> nodo30;
 nodo10 -> nodo17;
 nodo18[label="{EO: 18|cost: 4.0|A: GoE5|Posicion:\nD5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo31[label="{EO: 31|cost: 5.0|A: GoE3|Posicion:\nE5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo53[label="{EO: 53|cost: 6.0|A: GoE2|Posicion:\nE3
 Infectados:\n0
-Escapados:\n2}"]
-nodo89[label="{EO: 89|cost: 7.0|A: GoE1|Posicion:\nE2
+Escapados:\n
+posicion:\nA9
+}"]
+nodo90[label="{EO: 90|cost: 7.0|A: GoE1|Posicion:\nE2
 Infectados:\n0
-Escapados:\n2}"]
-nodo146[label="{EO: 146|cost: 8.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-nodo249[label="{EO: 249|cost: 9.0|A: GoA1|Posicion:\nD1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo146 -> nodo249;
-
-nodo89 -> nodo146;
-
-nodo53 -> nodo89;
-nodo90[label="{EO: 90|cost: 7.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-nodo147[label="{EO: 147|cost: 8.0|A: GoH2|Posicion:\nF2
-Infectados:\n0
-Escapados:\n2}"]
-nodo250[label="{EO: 250|cost: 9.0|A: GoH1|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo409[label="{EO: 409|cost: 10.0|A: GoF1|Posicion:\nH1
-Infectados:\n0
-Escapados:\n2}"]
-nodo682[label="{EO: 682|cost: 11.0|A: GoE1|Posicion:\nF1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo409 -> nodo682;
-
-nodo250 -> nodo409;
-
-nodo147 -> nodo250;
-nodo251[label="{EO: 251|cost: 9.0|A: GoI2|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo410[label="{EO: 410|cost: 10.0|A: GoI3|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo683[label="{EO: 683|cost: 11.0|A: GoH3|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo410 -> nodo683;
-nodo684[label="{EO: 684|cost: 11.0|A: GoI5|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo410 -> nodo684;
-
-nodo251 -> nodo410;
-nodo411[label="{EO: 411|cost: 10.0|A: GoJ2|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-nodo685[label="{EO: 685|cost: 11.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo411 -> nodo685;
-nodo686[label="{EO: 686|cost: 11.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo411 -> nodo686;
-
-nodo251 -> nodo411;
-
-nodo147 -> nodo251;
-
-nodo90 -> nodo147;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo53 -> nodo90;
+nodo91[label="{EO: 91|cost: 7.0|A: GoF2|Posicion:\nE2
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo53 -> nodo91;
 
 nodo31 -> nodo53;
 
 nodo18 -> nodo31;
 nodo32[label="{EO: 32|cost: 5.0|A: GoF5|Posicion:\nE5
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo54[label="{EO: 54|cost: 6.0|A: GoF6|Posicion:\nF5
 Infectados:\n0
-Escapados:\n2}"]
-nodo91[label="{EO: 91|cost: 7.0|A: GoG6|Posicion:\nF6
+Escapados:\n
+posicion:\nA9
+}"]
+nodo92[label="{EO: 92|cost: 7.0|A: GoG6|Posicion:\nF6
 Infectados:\n0
-Escapados:\n2}"]
-nodo148[label="{EO: 148|cost: 8.0|A: GoG7|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo252[label="{EO: 252|cost: 9.0|A: GoH7|Posicion:\nG7
-Infectados:\n0
-Escapados:\n2}"]
-nodo412[label="{EO: 412|cost: 10.0|A: GoI7|Posicion:\nH7
-Infectados:\n0
-Escapados:\n2}"]
-nodo687[label="{EO: 687|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
-nodo412 -> nodo687;
-nodo688[label="{EO: 688|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo412 -> nodo688;
-
-nodo252 -> nodo412;
-
-nodo148 -> nodo252;
-
-nodo91 -> nodo148;
-nodo149[label="{EO: 149|cost: 8.0|A: GoH6|Posicion:\nG6
-Infectados:\n0
-Escapados:\n2}"]
-nodo253[label="{EO: 253|cost: 9.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo413[label="{EO: 413|cost: 10.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo689[label="{EO: 689|cost: 11.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo413 -> nodo689;
-nodo690[label="{EO: 690|cost: 11.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo413 -> nodo690;
-
-nodo253 -> nodo413;
-nodo414[label="{EO: 414|cost: 10.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo691[label="{EO: 691|cost: 11.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo414 -> nodo691;
-nodo692[label="{EO: 692|cost: 11.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo414 -> nodo692;
-
-nodo253 -> nodo414;
-
-nodo149 -> nodo253;
-nodo254[label="{EO: 254|cost: 9.0|A: GoI6|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo415[label="{EO: 415|cost: 10.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo693[label="{EO: 693|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo415 -> nodo693;
-nodo694[label="{EO: 694|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo415 -> nodo694;
-
-nodo254 -> nodo415;
-nodo416[label="{EO: 416|cost: 10.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo695[label="{EO: 695|cost: 11.0|A: GoH6|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo416 -> nodo695;
-nodo696[label="{EO: 696|cost: 11.0|A: GoI7|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo416 -> nodo696;
-
-nodo254 -> nodo416;
-
-nodo149 -> nodo254;
-
-nodo91 -> nodo149;
-
-nodo54 -> nodo91;
+nodo54 -> nodo92;
 
 nodo32 -> nodo54;
 nodo55[label="{EO: 55|cost: 6.0|A: GoH5|Posicion:\nF5
 Infectados:\n0
-Escapados:\n2}"]
-nodo92[label="{EO: 92|cost: 7.0|A: GoH4|Posicion:\nH5
+Escapados:\n
+posicion:\nA9
+}"]
+nodo93[label="{EO: 93|cost: 7.0|A: GoH4|Posicion:\nH5
 Infectados:\n0
-Escapados:\n2}"]
-nodo150[label="{EO: 150|cost: 8.0|A: GoF3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo255[label="{EO: 255|cost: 9.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo417[label="{EO: 417|cost: 10.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo697[label="{EO: 697|cost: 11.0|A: GoE1|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo417 -> nodo697;
-nodo698[label="{EO: 698|cost: 11.0|A: GoF2|Posicion:\nE2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo417 -> nodo698;
-
-nodo255 -> nodo417;
-
-nodo150 -> nodo255;
-nodo256[label="{EO: 256|cost: 9.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo150 -> nodo256;
-
-nodo92 -> nodo150;
-nodo151[label="{EO: 151|cost: 8.0|A: GoH3|Posicion:\nH4
-Infectados:\n0
-Escapados:\n2}"]
-nodo257[label="{EO: 257|cost: 9.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-nodo418[label="{EO: 418|cost: 10.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo699[label="{EO: 699|cost: 11.0|A: GoE2|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo418 -> nodo699;
-
-nodo257 -> nodo418;
-nodo419[label="{EO: 419|cost: 10.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo257 -> nodo419;
-
-nodo151 -> nodo257;
-nodo258[label="{EO: 258|cost: 9.0|A: GoH2|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-nodo420[label="{EO: 420|cost: 10.0|A: GoH1|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo700[label="{EO: 700|cost: 11.0|A: GoF1|Posicion:\nH1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo420 -> nodo700;
-
-nodo258 -> nodo420;
-nodo421[label="{EO: 421|cost: 10.0|A: GoI2|Posicion:\nH2
-Infectados:\n0
-Escapados:\n2}"]
-nodo701[label="{EO: 701|cost: 11.0|A: GoI3|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo421 -> nodo701;
-nodo702[label="{EO: 702|cost: 11.0|A: GoJ2|Posicion:\nI2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo421 -> nodo702;
-
-nodo258 -> nodo421;
-
-nodo151 -> nodo258;
-
-nodo92 -> nodo151;
-
-nodo55 -> nodo92;
-nodo93[label="{EO: 93|cost: 7.0|A: GoI5|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-nodo152[label="{EO: 152|cost: 8.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo259[label="{EO: 259|cost: 9.0|A: GoH6|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo152 -> nodo259;
-nodo260[label="{EO: 260|cost: 9.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo422[label="{EO: 422|cost: 10.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo703[label="{EO: 703|cost: 11.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo422 -> nodo703;
-nodo704[label="{EO: 704|cost: 11.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo422 -> nodo704;
-
-nodo260 -> nodo422;
-nodo423[label="{EO: 423|cost: 10.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo705[label="{EO: 705|cost: 11.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo423 -> nodo705;
-nodo706[label="{EO: 706|cost: 11.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo423 -> nodo706;
-
-nodo260 -> nodo423;
-
-nodo152 -> nodo260;
-nodo261[label="{EO: 261|cost: 9.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo424[label="{EO: 424|cost: 10.0|A: GoH6|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo707[label="{EO: 707|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo424 -> nodo707;
-
-nodo261 -> nodo424;
-nodo425[label="{EO: 425|cost: 10.0|A: GoI7|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo708[label="{EO: 708|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo425 -> nodo708;
-nodo709[label="{EO: 709|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo425 -> nodo709;
-nodo710[label="{EO: 710|cost: 11.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo425 -> nodo710;
-
-nodo261 -> nodo425;
-
-nodo152 -> nodo261;
-
-nodo93 -> nodo152;
-nodo153[label="{EO: 153|cost: 8.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo262[label="{EO: 262|cost: 9.0|A: GoJ3|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo426[label="{EO: 426|cost: 10.0|A: GoI3|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo711[label="{EO: 711|cost: 11.0|A: GoH3|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo426 -> nodo711;
-
-nodo262 -> nodo426;
-nodo427[label="{EO: 427|cost: 10.0|A: GoJ2|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo712[label="{EO: 712|cost: 11.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo427 -> nodo712;
-nodo713[label="{EO: 713|cost: 11.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo427 -> nodo713;
-
-nodo262 -> nodo427;
-
-nodo153 -> nodo262;
-nodo263[label="{EO: 263|cost: 9.0|A: GoK5|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo428[label="{EO: 428|cost: 10.0|A: GoK6|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo714[label="{EO: 714|cost: 11.0|A: GoJ6|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo428 -> nodo714;
-nodo715[label="{EO: 715|cost: 11.0|A: GoK7|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo428 -> nodo715;
-
-nodo263 -> nodo428;
-nodo429[label="{EO: 429|cost: 10.0|A: GoL5|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo716[label="{EO: 716|cost: 11.0|A: GoL3|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo429 -> nodo716;
-nodo717[label="{EO: 717|cost: 11.0|A: GoM5|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo429 -> nodo717;
-
-nodo263 -> nodo429;
-
-nodo153 -> nodo263;
-
-nodo93 -> nodo153;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo55 -> nodo93;
+nodo94[label="{EO: 94|cost: 7.0|A: GoI5|Posicion:\nH5
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo55 -> nodo94;
 
 nodo32 -> nodo55;
 
@@ -4365,16 +591,24 @@ nodo5 -> nodo10;
 nodo3 -> nodo5;
 nodo6[label="{EO: 6|cost: 2.0|A: GoE2|Posicion:\nD2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo11[label="{EO: 11|cost: 3.0|A: GoE1|Posicion:\nE2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo19[label="{EO: 19|cost: 4.0|A: GoD1|Posicion:\nE1
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo33[label="{EO: 33|cost: 5.0|A: GoA1|Posicion:\nD1
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo19 -> nodo33;
 
@@ -4383,391 +617,80 @@ nodo11 -> nodo19;
 nodo6 -> nodo11;
 nodo12[label="{EO: 12|cost: 3.0|A: GoF2|Posicion:\nE2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo20[label="{EO: 20|cost: 4.0|A: GoH2|Posicion:\nF2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo34[label="{EO: 34|cost: 5.0|A: GoH1|Posicion:\nH2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo56[label="{EO: 56|cost: 6.0|A: GoF1|Posicion:\nH1
 Infectados:\n0
-Escapados:\n2}"]
-nodo94[label="{EO: 94|cost: 7.0|A: GoE1|Posicion:\nF1
+Escapados:\n
+posicion:\nA9
+}"]
+nodo95[label="{EO: 95|cost: 7.0|A: GoE1|Posicion:\nF1
 Infectados:\n0
-Escapados:\n2}"]
-nodo154[label="{EO: 154|cost: 8.0|A: GoD1|Posicion:\nE1
-Infectados:\n0
-Escapados:\n2}"]
-nodo264[label="{EO: 264|cost: 9.0|A: GoA1|Posicion:\nD1
-Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 
-nodo154 -> nodo264;
-
-nodo94 -> nodo154;
-
-nodo56 -> nodo94;
+nodo56 -> nodo95;
 
 nodo34 -> nodo56;
 
 nodo20 -> nodo34;
 nodo35[label="{EO: 35|cost: 5.0|A: GoI2|Posicion:\nH2
 Infectados:\n0
-Escapados:\n2}"]
+Escapados:\n
+posicion:\nA9
+}"]
 nodo57[label="{EO: 57|cost: 6.0|A: GoI3|Posicion:\nI2
 Infectados:\n0
-Escapados:\n2}"]
-nodo95[label="{EO: 95|cost: 7.0|A: GoH3|Posicion:\nI3
+Escapados:\n
+posicion:\nA9
+}"]
+nodo96[label="{EO: 96|cost: 7.0|A: GoH3|Posicion:\nI3
 Infectados:\n0
-Escapados:\n2}"]
-nodo155[label="{EO: 155|cost: 8.0|A: GoF3|Posicion:\nH3
-Infectados:\n0
-Escapados:\n2}"]
-nodo265[label="{EO: 265|cost: 9.0|A: GoE3|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo430[label="{EO: 430|cost: 10.0|A: GoD3|Posicion:\nE3
-Infectados:\n0
-Escapados:\n2}"]
-nodo718[label="{EO: 718|cost: 11.0|A: GoA3|Posicion:\nD3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo430 -> nodo718;
-nodo719[label="{EO: 719|cost: 11.0|A: GoD5|Posicion:\nD3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo430 -> nodo719;
-
-nodo265 -> nodo430;
-
-nodo155 -> nodo265;
-nodo266[label="{EO: 266|cost: 9.0|A: GoF4|Posicion:\nF3
-Infectados:\n0
-Escapados:\n2}"]
-nodo431[label="{EO: 431|cost: 10.0|A: GoF5|Posicion:\nF4
-Infectados:\n0
-Escapados:\n2}"]
-nodo720[label="{EO: 720|cost: 11.0|A: GoF6|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo431 -> nodo720;
-nodo721[label="{EO: 721|cost: 11.0|A: GoH5|Posicion:\nF5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo431 -> nodo721;
-
-nodo266 -> nodo431;
-
-nodo155 -> nodo266;
-
-nodo95 -> nodo155;
-
-nodo57 -> nodo95;
-nodo96[label="{EO: 96|cost: 7.0|A: GoI5|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-nodo156[label="{EO: 156|cost: 8.0|A: GoI6|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo267[label="{EO: 267|cost: 9.0|A: GoH6|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo432[label="{EO: 432|cost: 10.0|A: GoH5|Posicion:\nH6
-Infectados:\n0
-Escapados:\n2}"]
-nodo722[label="{EO: 722|cost: 11.0|A: GoH4|Posicion:\nH5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo432 -> nodo722;
-
-nodo267 -> nodo432;
-
-nodo156 -> nodo267;
-nodo268[label="{EO: 268|cost: 9.0|A: GoI7|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo433[label="{EO: 433|cost: 10.0|A: GoI8|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo723[label="{EO: 723|cost: 11.0|A: GoH8|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo433 -> nodo723;
-nodo724[label="{EO: 724|cost: 11.0|A: GoI9|Posicion:\nI8
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo433 -> nodo724;
-
-nodo268 -> nodo433;
-nodo434[label="{EO: 434|cost: 10.0|A: GoJ7|Posicion:\nI7
-Infectados:\n0
-Escapados:\n2}"]
-nodo725[label="{EO: 725|cost: 11.0|A: GoJ6|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo434 -> nodo725;
-nodo726[label="{EO: 726|cost: 11.0|A: GoK7|Posicion:\nJ7
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo434 -> nodo726;
-
-nodo268 -> nodo434;
-
-nodo156 -> nodo268;
-nodo269[label="{EO: 269|cost: 9.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI6
-Infectados:\n0
-Escapados:\n2}"]
-nodo435[label="{EO: 435|cost: 10.0|A: GoH6|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo727[label="{EO: 727|cost: 11.0|A: GoH5|Posicion:\nH6
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo435 -> nodo727;
-
-nodo269 -> nodo435;
-nodo436[label="{EO: 436|cost: 10.0|A: GoI7|Posicion:\nI6
-Infectados:\n1
-Escapados:\n1}"]
-nodo728[label="{EO: 728|cost: 11.0|A: GoI8|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo436 -> nodo728;
-nodo729[label="{EO: 729|cost: 11.0|A: GoJ7|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo436 -> nodo729;
-nodo730[label="{EO: 730|cost: 11.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nI7
-Infectados:\n1
-Escapados:\n1}"]
-
-nodo436 -> nodo730;
-
-nodo269 -> nodo436;
-
-nodo156 -> nodo269;
-
-nodo96 -> nodo156;
-nodo157[label="{EO: 157|cost: 8.0|A: GoJ5|Posicion:\nI5
-Infectados:\n0
-Escapados:\n2}"]
-nodo270[label="{EO: 270|cost: 9.0|A: GoJ3|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo437[label="{EO: 437|cost: 10.0|A: GoJ2|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo731[label="{EO: 731|cost: 11.0|A: GoJ1|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo437 -> nodo731;
-nodo732[label="{EO: 732|cost: 11.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo437 -> nodo732;
-
-nodo270 -> nodo437;
-
-nodo157 -> nodo270;
-nodo271[label="{EO: 271|cost: 9.0|A: GoK5|Posicion:\nJ5
-Infectados:\n0
-Escapados:\n2}"]
-nodo438[label="{EO: 438|cost: 10.0|A: GoK6|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo733[label="{EO: 733|cost: 11.0|A: GoJ6|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo438 -> nodo733;
-nodo734[label="{EO: 734|cost: 11.0|A: GoK7|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo438 -> nodo734;
-
-nodo271 -> nodo438;
-nodo439[label="{EO: 439|cost: 10.0|A: GoL5|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo735[label="{EO: 735|cost: 11.0|A: GoL3|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo439 -> nodo735;
-nodo736[label="{EO: 736|cost: 11.0|A: GoM5|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo439 -> nodo736;
-
-nodo271 -> nodo439;
-
-nodo157 -> nodo271;
-
-nodo96 -> nodo157;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo57 -> nodo96;
+nodo97[label="{EO: 97|cost: 7.0|A: GoI5|Posicion:\nI3
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo57 -> nodo97;
 
 nodo35 -> nodo57;
 nodo58[label="{EO: 58|cost: 6.0|A: GoJ2|Posicion:\nI2
 Infectados:\n0
-Escapados:\n2}"]
-nodo97[label="{EO: 97|cost: 7.0|A: GoJ1|Posicion:\nJ2
+Escapados:\n
+posicion:\nA9
+}"]
+nodo98[label="{EO: 98|cost: 7.0|A: GoJ1|Posicion:\nJ2
 Infectados:\n0
-Escapados:\n2}"]
-nodo158[label="{EO: 158|cost: 8.0|A: GoI1|Posicion:\nJ1
-Infectados:\n0
-Escapados:\n2}"]
-nodo272[label="{EO: 272|cost: 9.0|A: GoH1|Posicion:\nI1
-Infectados:\n0
-Escapados:\n2}"]
-nodo440[label="{EO: 440|cost: 10.0|A: GoF1|Posicion:\nH1
-Infectados:\n0
-Escapados:\n2}"]
-nodo737[label="{EO: 737|cost: 11.0|A: GoE1|Posicion:\nF1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo440 -> nodo737;
-
-nodo272 -> nodo440;
-
-nodo158 -> nodo272;
-
-nodo97 -> nodo158;
-
-nodo58 -> nodo97;
-nodo98[label="{EO: 98|cost: 7.0|A: GoK2|Posicion:\nJ2
-Infectados:\n0
-Escapados:\n2}"]
-nodo159[label="{EO: 159|cost: 8.0|A: GoK3|Posicion:\nK2
-Infectados:\n0
-Escapados:\n2}"]
-nodo273[label="{EO: 273|cost: 9.0|A: GoJ3|Posicion:\nK3
-Infectados:\n0
-Escapados:\n2}"]
-nodo441[label="{EO: 441|cost: 10.0|A: GoI3|Posicion:\nJ3
-Infectados:\n0
-Escapados:\n2}"]
-nodo738[label="{EO: 738|cost: 11.0|A: GoH3|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo441 -> nodo738;
-nodo739[label="{EO: 739|cost: 11.0|A: GoI5|Posicion:\nI3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo441 -> nodo739;
-
-nodo273 -> nodo441;
-
-nodo159 -> nodo273;
-nodo274[label="{EO: 274|cost: 9.0|A: GoK5|Posicion:\nK3
-Infectados:\n0
-Escapados:\n2}"]
-nodo442[label="{EO: 442|cost: 10.0|A: GoK6|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo740[label="{EO: 740|cost: 11.0|A: GoJ6|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo442 -> nodo740;
-nodo741[label="{EO: 741|cost: 11.0|A: GoK7|Posicion:\nK6
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo442 -> nodo741;
-
-nodo274 -> nodo442;
-nodo443[label="{EO: 443|cost: 10.0|A: GoL5|Posicion:\nK5
-Infectados:\n0
-Escapados:\n2}"]
-nodo742[label="{EO: 742|cost: 11.0|A: GoL3|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo443 -> nodo742;
-nodo743[label="{EO: 743|cost: 11.0|A: GoM5|Posicion:\nL5
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo443 -> nodo743;
-
-nodo274 -> nodo443;
-
-nodo159 -> nodo274;
-
-nodo98 -> nodo159;
-nodo160[label="{EO: 160|cost: 8.0|A: GoL2|Posicion:\nK2
-Infectados:\n0
-Escapados:\n2}"]
-nodo275[label="{EO: 275|cost: 9.0|A: GoL1|Posicion:\nL2
-Infectados:\n0
-Escapados:\n2}"]
-nodo444[label="{EO: 444|cost: 10.0|A: GoK1|Posicion:\nL1
-Infectados:\n0
-Escapados:\n2}"]
-nodo744[label="{EO: 744|cost: 11.0|A: GoJ1|Posicion:\nK1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo444 -> nodo744;
-
-nodo275 -> nodo444;
-
-nodo160 -> nodo275;
-nodo276[label="{EO: 276|cost: 9.0|A: GoM2|Posicion:\nL2
-Infectados:\n0
-Escapados:\n2}"]
-nodo445[label="{EO: 445|cost: 10.0|A: GoM1|Posicion:\nM2
-Infectados:\n0
-Escapados:\n2}"]
-nodo745[label="{EO: 745|cost: 11.0|A: GoL1|Posicion:\nM1
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo445 -> nodo745;
-
-nodo276 -> nodo445;
-nodo446[label="{EO: 446|cost: 10.0|A: GoM3|Posicion:\nM2
-Infectados:\n0
-Escapados:\n2}"]
-nodo746[label="{EO: 746|cost: 11.0|A: GoL3|Posicion:\nM3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo446 -> nodo746;
-nodo747[label="{EO: 747|cost: 11.0|A: GoM5|Posicion:\nM3
-Infectados:\n0
-Escapados:\n2}"]
-
-nodo446 -> nodo747;
-
-nodo276 -> nodo446;
-
-nodo160 -> nodo276;
-
-nodo98 -> nodo160;
+Escapados:\n
+posicion:\nA9
+}"]
 
 nodo58 -> nodo98;
+nodo99[label="{EO: 99|cost: 7.0|A: GoK2|Posicion:\nJ2
+Infectados:\n0
+Escapados:\n
+posicion:\nA9
+}"]
+
+nodo58 -> nodo99;
 
 nodo35 -> nodo58;
 

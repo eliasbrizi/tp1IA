@@ -14,6 +14,7 @@ public class GoA1 extends SearchAction {
           return null;
       }
       ArrayList<String> successors = new ArrayList<String>();
+//      System.out.println(agentState.getSuccessors());
       successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.A1);

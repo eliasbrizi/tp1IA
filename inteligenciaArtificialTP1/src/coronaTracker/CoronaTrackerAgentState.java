@@ -32,7 +32,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String A1 = "A1";
 	public static final String A2 = "A2";
 	public static final String A3 = "A3";
-	public static final String A4 = "A4";
+//	public static final String A4 = "A4";
 	public static final String A5 = "A5";
 	public static final String A6 = "A6";
 	public static final String A7 = "A7";
@@ -41,41 +41,41 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String A10 = "A10";
 	public static final String A11 = "A11";
 	public static final String A12 = "A12";
-	public static final String A13 = "A13";
+//	public static final String A13 = "A13";
 	public static final String A14 = "A14";
 	public static final String A15 = "A15";
 	public static final String A16 = "A16";
 	public static final String A17 = "A17";
-	public static final String B1 = "B1";
-	public static final String B2 = "B2";
-	public static final String B3 = "B3";
-	public static final String B4 = "B4";
-	public static final String B5 = "B5";
-	public static final String B6 = "B6";
-	public static final String B7 = "B7";
-	public static final String B8 = "B8";
-	public static final String B9 = "B9";
-	public static final String B10 = "B10";
-	public static final String B11 = "B11";
-	public static final String B12 = "B12";
-	public static final String B13 = "B13";
-	public static final String B14 = "B14";
+//	public static final String B1 = "B1";
+//	public static final String B2 = "B2";
+//	public static final String B3 = "B3";
+//	public static final String B4 = "B4";
+//	public static final String B5 = "B5";
+//	public static final String B6 = "B6";
+//	public static final String B7 = "B7";
+//	public static final String B8 = "B8";
+//	public static final String B9 = "B9";
+//	public static final String B10 = "B10";
+//	public static final String B11 = "B11";
+//	public static final String B12 = "B12";
+//	public static final String B13 = "B13";
+//	public static final String B14 = "B14";
 	public static final String B15 = "B15";
 	public static final String B16 = "B16";
 	public static final String B17 = "B17";
-	public static final String C1 = "C1";
-	public static final String C2 = "C2";
-	public static final String C3 = "C3";
-	public static final String C4 = "C4";
-	public static final String C5 = "C5";
-	public static final String C6 = "C6";
-	public static final String C7 = "C7";
-	public static final String C8 = "C8";
-	public static final String C9 = "C9";
+//	public static final String C1 = "C1";
+//	public static final String C2 = "C2";
+//	public static final String C3 = "C3";
+//	public static final String C4 = "C4";
+//	public static final String C5 = "C5";
+//	public static final String C6 = "C6";
+//	public static final String C7 = "C7";
+//	public static final String C8 = "C8";
+//	public static final String C9 = "C9";
 	public static final String C10 = "C10";
 	public static final String C11 = "C11";
 	public static final String C12 = "C12";
-	public static final String C13 = "C13";
+//	public static final String C13 = "C13";
 	public static final String C14 = "C14";
 	public static final String C15 = "C15";
 	public static final String C16 = "C16";
@@ -83,7 +83,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String D1 = "D1";
 	public static final String D2 = "D2";
 	public static final String D3 = "D3";
-	public static final String D4 = "D4";
+//	public static final String D4 = "D4";
 	public static final String D5 = "D5";
 	public static final String D6 = "D6";
 	public static final String D7 = "D7";
@@ -100,7 +100,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String E1 = "E1";
 	public static final String E2 = "E2";
 	public static final String E3 = "E3";
-	public static final String E4 = "E4";
+//	public static final String E4 = "E4";
 	public static final String E5 = "E5";
 	public static final String E6 = "E6";
 	public static final String E7 = "E7";
@@ -131,23 +131,23 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String F15 = "F15";
 	public static final String F16 = "F16";
 	public static final String F17 = "F17";
-	public static final String G1 = "G1";
-	public static final String G2 = "G2";
-	public static final String G3 = "G3";
-	public static final String G4 = "G4";
-	public static final String G5 = "G5";
+//	public static final String G1 = "G1";
+//	public static final String G2 = "G2";
+//	public static final String G3 = "G3";
+//	public static final String G4 = "G4";
+//	public static final String G5 = "G5";
 	public static final String G6 = "G6";
 	public static final String G7 = "G7";
-	public static final String G8 = "G8";
-	public static final String G9 = "G9";
-	public static final String G10 = "G10";
-	public static final String G11 = "G11";
-	public static final String G12 = "G12";
-	public static final String G13 = "G13";
-	public static final String G14 = "G14";
-	public static final String G15 = "G15";
-	public static final String G16 = "G16";
-	public static final String G17 = "G17";
+//	public static final String G8 = "G8";
+//	public static final String G9 = "G9";
+//	public static final String G10 = "G10";
+//	public static final String G11 = "G11";
+//	public static final String G12 = "G12";
+//	public static final String G13 = "G13";
+//	public static final String G14 = "G14";
+//	public static final String G15 = "G15";
+//	public static final String G16 = "G16";
+//	public static final String G17 = "G17";
 	public static final String H1 = "H1";
 	public static final String H2 = "H2";
 	public static final String H3 = "H3";
@@ -168,7 +168,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String I1 = "I1";
 	public static final String I2 = "I2";
 	public static final String I3 = "I3";
-	public static final String I4 = "I4";
+//	public static final String I4 = "I4";
 	public static final String I5 = "I5";
 	public static final String I6 = "I6";
 	public static final String I7 = "I7";
@@ -185,7 +185,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String J1 = "J1";
 	public static final String J2 = "J2";
 	public static final String J3 = "J3";
-	public static final String J4 = "J4";
+//	public static final String J4 = "J4";
 	public static final String J5 = "J5";
 	public static final String J6 = "J6";
 	public static final String J7 = "J7";
@@ -194,15 +194,15 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String J10 = "J10";
 	public static final String J11 = "J11";
 	public static final String J12 = "J12";
-	public static final String J13 = "J13";
+//	public static final String J13 = "J13";
 	public static final String J14 = "J14";
 	public static final String J15 = "J15";
-	public static final String J16 = "J16";
-	public static final String J17 = "J17";
+//	public static final String J16 = "J16";
+//	public static final String J17 = "J17";
 	public static final String K1 = "K1";
 	public static final String K2 = "K2";
 	public static final String K3 = "K3";
-	public static final String K4 = "K4";
+//	public static final String K4 = "K4";
 	public static final String K5 = "K5";
 	public static final String K6 = "K6";
 	public static final String K7 = "K7";
@@ -211,15 +211,15 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String K10 = "K10";
 	public static final String K11 = "K11";
 	public static final String K12 = "K12";
-	public static final String K13 = "K13";
+//	public static final String K13 = "K13";
 	public static final String K14 = "K14";
-	public static final String K15 = "K15";
-	public static final String K16 = "K16";
-	public static final String K17 = "K17";
+//	public static final String K15 = "K15";
+//	public static final String K16 = "K16";
+//	public static final String K17 = "K17";
 	public static final String L1 = "L1";
 	public static final String L2 = "L2";
 	public static final String L3 = "L3";
-	public static final String L4 = "L4";
+//	public static final String L4 = "L4";
 	public static final String L5 = "L5";
 	public static final String L6 = "L6";
 	public static final String L7 = "L7";
@@ -227,16 +227,16 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String L9 = "L9";
 	public static final String L10 = "L10";
 	public static final String L11 = "L11";
-	public static final String L12 = "L12";
-	public static final String L13 = "L13";
-	public static final String L14 = "L14";
-	public static final String L15 = "L15";
-	public static final String L16 = "L16";
-	public static final String L17 = "L17";
+//	public static final String L12 = "L12";
+//	public static final String L13 = "L13";
+//	public static final String L14 = "L14";
+//	public static final String L15 = "L15";
+//	public static final String L16 = "L16";
+//	public static final String L17 = "L17";
 	public static final String M1 = "M1";
 	public static final String M2 = "M2";
 	public static final String M3 = "M3";
-	public static final String M4 = "M4";
+//	public static final String M4 = "M4";
 	public static final String M5 = "M5";
 	public static final String M6 = "M6";
 	public static final String M7 = "M7";
@@ -245,7 +245,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 	public static final String M10 = "M10";
 	public static final String M11 = "M11";
 	public static final String M12 = "M12";
-	public static final String M13 = "M13";
+//	public static final String M13 = "M13";
 	public static final String M14 = "M14";
 	public static final String M15 = "M15";
 	public static final String M16 = "M16";
@@ -280,13 +280,17 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 		ArrayList<Ciudadano> cloneciudadanosInfectados = (ArrayList<Ciudadano>) ciudadanosInfectados.clone();
 		ArrayList<Ciudadano> cloneciudadanosEscapados = (ArrayList<Ciudadano>)ciudadanosEscapados.clone();
 		ArrayList<Camino> clonecaminosCortados = (ArrayList<Camino>) caminosCortados.clone();
+		HashMap<String, Collection<String>> cloneknownMap = (HashMap<String, Collection<String>>) knownMap.clone();
+		newState.setKnownMap(cloneknownMap);
 		newState.setCaminosCortados(clonecaminosCortados);
 		newState.setCiudadanosEscapados(cloneciudadanosEscapados);
 		newState.setCiudadanosInfectados(cloneciudadanosInfectados);
 		return newState;
     }
 
-    @Override
+
+
+	@Override
     public void initState() {
         position = A1;
 
@@ -304,8 +308,8 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 			{A8,A7,A9},
 			{A9,A8,A10,D9},
 			{A10,A9,A11},
-			{A11,A10,A12,B11},
-			{A12,A11,A14,C11},
+			{A11,A10,A12,C11},
+			{A12,A11,A14,C12},
 			{A14,A12,A15,C14},
 			{A15,A14,A16,B15},
 			{A16,A15,A17,B16},
@@ -374,7 +378,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 			{H1,F1},
 			{H2,I2,H1},
 			{H3,F3,H2},
-			{H4,F3,H3},
+			{H4,F4,H3},
 			{H5,I5,H4},
 			{H6,I6,H5},
 			{H7,I7},
@@ -383,9 +387,9 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 			{H10,F10,H9},
 			{H11,I11,H10},
 			{H12,F12,H11},
-			{H13,F13,H12,L13},
+			{H13,F13,H12,I13},
 			{H14,I14,H13},
-			{H15,F15,H14,L15},
+			{H15,F15,H14,I15},
 			{H16,I16,H15},
 			{H17,F17,H16},
 			{I1,H1,I2},
@@ -401,8 +405,9 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 			{I12,H12,I13},
 			{I13,H13,I14},
 			{I14,J14,I15},
-			{I15,H15,I16,J15},
+			{I15,H15,I14,J15},
 			{I16,M16,I17},
+			{I17,H17},
 			{J1,I1},
 			{J2,K2,J1},
 			{J3,I3,J2},
@@ -443,12 +448,12 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 			{M3,M2,M5,L3},
 			{M5,M3,M6},
 			{M6,M5,M7,L6},
-			{M7,M5,M8},
+			{M7,M6,M8},
 			{M8,M7,M9,L8},
 			{M9,M8,M10},
 			{M10,M9,M11,L10},
 			{M11,M10,M12},
-			{M12,M11,M14,L11},
+			{M12,M11,M14,L11,K12},
 			{M14,M12,M15},
 			{M15,M14,M16,J15},
 			{M16,M15,M17},
@@ -482,16 +487,21 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 		ArrayList<Camino> nuevosCaminosCortados = new ArrayList<>();
 		nuevosCaminosCortados.addAll(perception.getCaminosCortados());
 		caminosCortados = nuevosCaminosCortados;
-        this.ciudadanosEscapados.addAll(perception.getNuevosEscapados());
+        for (;ciudadanosEscapados.size()<2 && perception.getNuevosEscapados().size()<2 && perception.getNuevosEscapados().size()>0;) 
+        {
+		this.ciudadanosEscapados.add(perception.getNuevosEscapados().get(0));
+		perception.getNuevosEscapados().remove(0);
+		}
         this.ciudadanosInfectados.addAll(perception.getNuevosInfectados());
     }
 
     @Override
     public String toString() {
 		String str = "Posicion: " + position + "\nInfectados: "+
-		ciudadanosInfectados.size() + "\nEscapados: "+
-		ciudadanosEscapados.size();
-
+		ciudadanosInfectados.size() + "\nEscapados: \n";
+		for (Ciudadano c : ciudadanosEscapados) {
+			str += "posicion: "+ c.getPosition() + "\n";
+		}
         return str;
 
     }
@@ -525,6 +535,7 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
     }
 
     public Collection<String> getSuccessors() {
+//    	System.out.println(position);
         return knownMap.get(position);
     }
 
@@ -558,5 +569,12 @@ public class CoronaTrackerAgentState extends SearchBasedAgentState {
 
 	public void setCaminosCortados(ArrayList<Camino> caminosCortados) {
 		this.caminosCortados = caminosCortados;
+	}
+    public HashMap<String, Collection<String>> getKnownMap() {
+		return knownMap;
+	}
+
+	public void setKnownMap(HashMap<String, Collection<String>> knownMap) {
+		this.knownMap = knownMap;
 	}
 }

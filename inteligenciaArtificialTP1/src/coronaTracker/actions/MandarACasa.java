@@ -1,5 +1,5 @@
 package coronaTracker.actions;
-import coronaTracker.CoronaTrackerAgentState;
+import coronaTracker.*;
 import java.util.ArrayList;
 import frsf.cidisi.faia.agent.search.SearchAction;
 import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
@@ -37,7 +37,8 @@ public class MandarACasa extends SearchAction {
 	@Override
 	public EnvironmentState execute(AgentState ast, EnvironmentState est) {
 	       this.execute((SearchBasedAgentState) ast);
-	       return null;
+//	       ((CoronaEnvironmentState) est).getCiudadanosEscapados().remove(0);
+	       return est;
 	}
 
 	@Override

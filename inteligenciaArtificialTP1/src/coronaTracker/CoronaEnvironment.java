@@ -20,6 +20,7 @@ package coronaTracker;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import coronaTracker.*;
 import coronaTracker.Domain.Camino;
 import coronaTracker.Domain.Ciudadano;
 import frsf.cidisi.faia.agent.Action;
@@ -34,6 +35,7 @@ public class CoronaEnvironment extends Environment {
     public CoronaEnvironment() {
         // Create the environment state
         this.environmentState = new CoronaEnvironmentState();
+        ((CoronaEnvironmentState)this.environmentState).setCiudadanosEscapados(new ArrayList<Ciudadano>());
     }
 
     @Override
@@ -66,21 +68,28 @@ public class CoronaEnvironment extends Environment {
 	public ArrayList<Ciudadano> getNuevosEscapados() {
 		// TODO Auto-generated method stub
 		ArrayList<Ciudadano> escapados = new ArrayList<>();
-		if(_yacree == 0) {
-			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A1, CoronaTrackerAgentState.I6, true);
-			escapados.add(c);
-
-		}
-		if(_yacree == 1) {
-			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A3, CoronaTrackerAgentState.I7, true);
-			escapados.add(c);
-
-		}
-		if(_yacree == 2) {
-			Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.J2, true);
-			escapados.add(c);
-
-		}
+		if (_yacree%6 == 0) {
+			//Sensor 1
+			if ( ((Math.round((Math.random()*100))% 4) == 0) || _yacree==0 ) {
+				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.A9, true);
+				escapados.add(c);
+			}
+			//Sensor 2
+			if ( (Math.round((Math.random()*100))% 4) == 0) {
+				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.M15, true);
+				escapados.add(c);					
+			}
+			//Sensor 3
+			if ( (Math.round((Math.random()*100))% 4) == 0) {
+				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.M8, true);
+				escapados.add(c);
+			}
+			//Sensor 4
+			if ( (Math.round((Math.random()*100))% 4) == 0) {
+				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.K2, true);
+				escapados.add(c);
+			}
+		}	
 		_yacree++;
 		return escapados;
 	}
@@ -89,5 +98,5 @@ public class CoronaEnvironment extends Environment {
 		// TODO Auto-generated method stub
 		return null;
 	}
-    
+	    
 }
