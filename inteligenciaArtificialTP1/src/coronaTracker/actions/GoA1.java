@@ -9,7 +9,8 @@ import coronaTracker.Domain.Camino;
 public class GoA1 extends SearchAction {
    @Override
    public SearchBasedAgentState execute(SearchBasedAgentState s) {
-        CoronaTrackerAgentState agentState = (CoronaTrackerAgentState) s;
+
+	   CoronaTrackerAgentState agentState = (CoronaTrackerAgentState) s;
        if (agentState.getVisitedPositions().contains(CoronaTrackerAgentState.A1)) {
           return null;
       }

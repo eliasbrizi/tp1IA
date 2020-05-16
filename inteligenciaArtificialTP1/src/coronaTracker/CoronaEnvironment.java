@@ -68,15 +68,15 @@ public class CoronaEnvironment extends Environment {
 		ArrayList<Ciudadano> escapados = new ArrayList<>();
 		if (_yacree%6 == 0) {
 			//Sensor 1
-			if ( ((Math.round((Math.random()*100))% 4) == 0) || _yacree==0 ) {
-				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.A9, true);
-				escapados.add(c);
-			}
-			//Sensor 2
-			if ( (Math.round((Math.random()*100))% 4) == 0) {
-				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.M15, true);
-				escapados.add(c);					
-			}
+			// if ( ((Math.round((Math.random()*100))% 4) == 0) || _yacree==0 ) {
+			// 	Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.A9, true);
+			// 	escapados.add(c);
+			// }
+			// //Sensor 2
+			// if ( (Math.round((Math.random()*100))% 4) == 0) {
+			// 	Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.M15, true);
+			// 	escapados.add(c);					
+			//}
 			//Sensor 3
 			if ( (Math.round((Math.random()*100))% 4) == 0) {
 				Ciudadano c = new Ciudadano(CoronaTrackerAgentState.A2, CoronaTrackerAgentState.M8, true);

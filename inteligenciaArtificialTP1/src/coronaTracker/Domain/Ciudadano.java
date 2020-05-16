@@ -13,6 +13,14 @@ public class Ciudadano {
 		this.infected = infected;
 	}
 
+	public Ciudadano(String home, String position) {
+		super();
+		this.home = home;
+		this.position = position;
+		if ( (Math.round((Math.random()*100))% 4) != 0) infected = true;
+		else infected = false;
+	}
+	
 	public String getHome() {
 		return home;
 	}
