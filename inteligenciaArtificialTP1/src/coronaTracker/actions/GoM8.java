@@ -18,8 +18,10 @@ public class GoM8 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.M8);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.M8))) {
-              agentState.setPosition(CoronaTrackerAgentState.M8);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.M8);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... M8");
+               return agentState;
          }
    }
      return null;

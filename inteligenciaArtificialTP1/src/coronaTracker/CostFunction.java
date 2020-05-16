@@ -32,6 +32,6 @@ public class CostFunction implements IStepCostFunction {
     @Override
     public double calculateCost(NTree node) {
     	//TODO Poner una sumatoria de los pesos en el estado del agente
-        return ((PacmanAgentState) node.getAgentState()).getVisitedCellsCount();
+        return ((CoronaTrackerAgentState) node.getAgentState()).getCostCount();
     }
 }

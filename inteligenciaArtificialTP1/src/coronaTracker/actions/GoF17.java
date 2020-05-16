@@ -18,8 +18,10 @@ public class GoF17 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.F17);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.F17))) {
-              agentState.setPosition(CoronaTrackerAgentState.F17);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.F17);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... F17");
+               return agentState;
          }
    }
      return null;

@@ -35,7 +35,6 @@ public class CoronaEnvironment extends Environment {
     public CoronaEnvironment() {
         // Create the environment state
         this.environmentState = new CoronaEnvironmentState();
-        ((CoronaEnvironmentState)this.environmentState).setCiudadanosEscapados(new ArrayList<Ciudadano>());
     }
 
     @Override
@@ -55,18 +54,17 @@ public class CoronaEnvironment extends Environment {
     }
 
 	public ArrayList<Camino> getCaminosCortados() {
-        // TODO Auto-generated method stub
-        /*
-        para la prueba quiero ir de J6 a L6 pero corto el camino entre ellos
-        */
-        Camino camino = new Camino(CoronaEnvironmentState.J6, CoronaEnvironmentState.L6);
-        ArrayList<Camino> caminos = new ArrayList<Camino>();
-        caminos.add(camino);
+		
+		//TODO generar caminos
+		ArrayList<Camino> caminos = new ArrayList<Camino>();
+		
         return caminos;
 	}
 
 	public ArrayList<Ciudadano> getNuevosEscapados() {
-		// TODO Auto-generated method stub
+		
+		//TODO que se escapen infectados
+		
 		ArrayList<Ciudadano> escapados = new ArrayList<>();
 		if (_yacree%6 == 0) {
 			//Sensor 1

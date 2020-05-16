@@ -18,8 +18,10 @@ public class GoK1 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.K1);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.K1))) {
-              agentState.setPosition(CoronaTrackerAgentState.K1);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.K1);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... K1");
+               return agentState;
          }
    }
      return null;

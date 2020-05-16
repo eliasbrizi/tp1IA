@@ -46,17 +46,13 @@ public class CoronaTrackerPerception extends Perception {
      */
     @Override
     public void initPerception(Agent agent, Environment environment) {
-        CoronaTrackerAgent coronaAgent = (CoronaTrackerAgent) agent;
         CoronaEnvironment coronaEnvironment = (CoronaEnvironment) environment;
-        CoronaEnvironmentState environmentState =
-                (CoronaEnvironmentState) coronaEnvironment.getEnvironmentState();
         /*
          * Obtener calles cortadas, escapados y posibles infectados
          */
         this.caminosCortados.addAll(coronaEnvironment.getCaminosCortados());
         this.nuevosEscapados.addAll(coronaEnvironment.getNuevosEscapados());
         this.nuevosInfectados.addAll(coronaEnvironment.getNuevosInfectados());
-        // Deberia preguntar si ya estan escapados antes de ponerlos como nuevos?
     }
 
 

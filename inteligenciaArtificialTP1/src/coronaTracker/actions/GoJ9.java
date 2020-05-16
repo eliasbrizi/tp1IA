@@ -18,8 +18,10 @@ public class GoJ9 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.J9);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.J9))) {
-              agentState.setPosition(CoronaTrackerAgentState.J9);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.J9);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... J9");
+               return agentState;
          }
    }
      return null;

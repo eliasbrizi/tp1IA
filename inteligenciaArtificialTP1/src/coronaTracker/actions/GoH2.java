@@ -18,8 +18,10 @@ public class GoH2 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.H2);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.H2))) {
-              agentState.setPosition(CoronaTrackerAgentState.H2);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.H2);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... H2");
+               return agentState;
          }
    }
      return null;

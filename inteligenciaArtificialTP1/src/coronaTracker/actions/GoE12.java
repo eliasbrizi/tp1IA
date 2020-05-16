@@ -18,8 +18,10 @@ public class GoE12 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.E12);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.E12))) {
-              agentState.setPosition(CoronaTrackerAgentState.E12);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.E12);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... E12");
+               return agentState;
          }
    }
      return null;

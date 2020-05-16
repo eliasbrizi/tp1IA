@@ -18,8 +18,10 @@ public class GoK8 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.K8);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.K8))) {
-              agentState.setPosition(CoronaTrackerAgentState.K8);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.K8);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... K8");
+               return agentState;
          }
    }
      return null;

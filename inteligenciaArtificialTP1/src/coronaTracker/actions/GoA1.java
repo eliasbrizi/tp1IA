@@ -14,13 +14,14 @@ public class GoA1 extends SearchAction {
           return null;
       }
       ArrayList<String> successors = new ArrayList<String>();
-//      System.out.println(agentState.getSuccessors());
       successors.addAll(agentState.getSuccessors());
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.A1);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.A1))) {
-              agentState.setPosition(CoronaTrackerAgentState.A1);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.A1);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... A1");
+               return agentState;
          }
    }
      return null;

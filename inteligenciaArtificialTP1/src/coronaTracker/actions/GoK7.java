@@ -18,8 +18,10 @@ public class GoK7 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.K7);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.K7))) {
-              agentState.setPosition(CoronaTrackerAgentState.K7);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.K7);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... K7");
+               return agentState;
          }
    }
      return null;

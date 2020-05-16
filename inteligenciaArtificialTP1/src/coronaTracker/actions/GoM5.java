@@ -18,8 +18,10 @@ public class GoM5 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.M5);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.M5))) {
-              agentState.setPosition(CoronaTrackerAgentState.M5);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.M5);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... M5");
+               return agentState;
          }
    }
      return null;

@@ -2,143 +2,235 @@ digraph g {
 node [shape = Mrecord];
 nodo0[label="{EO: 0|cost: 0.0|A: null}"]
 nodo1[label="{EO: 1|cost: 1.0|A: GoA6}"]
-nodo4[label="{EO: 4|cost: 2.0|A: GoA5|Posicion:\nA6
+nodo4[label="{EO: 4|cost: 2.0|A: GoA5|
+Posicion\nAgente:\nA6
+Costo\nAcumulado:\n6.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo8[label="{EO: 8|cost: 3.0|A: GoA3|Posicion:\nA5
+nodo8[label="{EO: 8|cost: 3.0|A: GoA3|
+Posicion\nAgente:\nA5
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo17[label="{EO: 17|cost: 4.0|A: GoA2|Posicion:\nA3
+nodo19[label="{EO: 19|cost: 4.0|A: GoA2|
+Posicion\nAgente:\nA3
+Costo\nAcumulado:\n8.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
 
-nodo8 -> nodo17;
+nodo8 -> nodo19;
+nodo20[label="{EO: 20|cost: 4.0|A: GoA5|
+Posicion\nAgente:\nA3
+Costo\nAcumulado:\n8.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo8 -> nodo20;
 
 nodo4 -> nodo8;
-nodo9[label="{EO: 9|cost: 3.0|A: GoD5|Posicion:\nA5
+nodo9[label="{EO: 9|cost: 3.0|A: GoA6|
+Posicion\nAgente:\nA5
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo18[label="{EO: 18|cost: 4.0|A: GoD6|Posicion:\nD5
+nodo21[label="{EO: 21|cost: 4.0|A: GoA5|
+Posicion\nAgente:\nA6
+Costo\nAcumulado:\n8.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-
-nodo9 -> nodo18;
-nodo19[label="{EO: 19|cost: 4.0|A: GoE5|Posicion:\nD5
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
 
-nodo9 -> nodo19;
+nodo9 -> nodo21;
 
 nodo4 -> nodo9;
+nodo10[label="{EO: 10|cost: 3.0|A: GoD5|
+Posicion\nAgente:\nA5
+Costo\nAcumulado:\n7.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+nodo22[label="{EO: 22|cost: 4.0|A: GoD6|
+Posicion\nAgente:\nD5
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo10 -> nodo22;
+nodo23[label="{EO: 23|cost: 4.0|A: GoE5|
+Posicion\nAgente:\nD5
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo10 -> nodo23;
+
+nodo4 -> nodo10;
 
 nodo1 -> nodo4;
 
 nodo0 -> nodo1;
 nodo2[label="{EO: 2|cost: 1.0|A: GoA8}"]
-nodo5[label="{EO: 5|cost: 2.0|A: GoA9|Posicion:\nA8
+nodo5[label="{EO: 5|cost: 2.0|A: GoA9|
+Posicion\nAgente:\nA8
+Costo\nAcumulado:\n6.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo10[label="{EO: 10|cost: 3.0|A: GoA10|Posicion:\nA9
+nodo11[label="{EO: 11|cost: 3.0|A: GoA8|
+Posicion\nAgente:\nA9
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo20[label="{EO: 20|cost: 4.0|A: GoA11|Posicion:\nA10
+nodo24[label="{EO: 24|cost: 4.0|A: GoA9|
+Posicion\nAgente:\nA8
+Costo\nAcumulado:\n8.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-
-nodo10 -> nodo20;
-
-nodo5 -> nodo10;
-nodo11[label="{EO: 11|cost: 3.0|A: GoD9|Posicion:\nA9
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-nodo21[label="{EO: 21|cost: 4.0|A: GoD10|Posicion:\nD9
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
 
-nodo11 -> nodo21;
-nodo22[label="{EO: 22|cost: 4.0|A: GoE9|Posicion:\nD9
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-
-nodo11 -> nodo22;
+nodo11 -> nodo24;
 
 nodo5 -> nodo11;
-nodo12[label="{EO: 12|cost: 3.0|A: Hacer la ley, multar y mandar a casa.|Posicion:\nA9
+nodo12[label="{EO: 12|cost: 3.0|A: GoA10|
+Posicion\nAgente:\nA9
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
+}"]
+nodo25[label="{EO: 25|cost: 4.0|A: GoA9|
+Posicion\nAgente:\nA10
+Costo\nAcumulado:\n8.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
 }"]
 
+nodo12 -> nodo25;
+nodo26[label="{EO: 26|cost: 4.0|A: GoA11|
+Posicion\nAgente:\nA10
+Costo\nAcumulado:\n8.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo12 -> nodo26;
+
 nodo5 -> nodo12;
+nodo13[label="{EO: 13|cost: 3.0|A: GoD9|
+Posicion\nAgente:\nA9
+Costo\nAcumulado:\n7.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+nodo27[label="{EO: 27|cost: 4.0|A: GoD10|
+Posicion\nAgente:\nD9
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo13 -> nodo27;
+nodo28[label="{EO: 28|cost: 4.0|A: GoE9|
+Posicion\nAgente:\nD9
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo13 -> nodo28;
+
+nodo5 -> nodo13;
+nodo14[label="{EO: 14|cost: 3.0|A: Hacer la ley, multar y mandar a casa.|
+Posicion\nAgente:\nA9
+Costo\nAcumulado:\n7.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo5 -> nodo14;
 
 nodo2 -> nodo5;
 
 nodo0 -> nodo2;
 nodo3[label="{EO: 3|cost: 1.0|A: GoD7}"]
-nodo6[label="{EO: 6|cost: 2.0|A: GoD8|Posicion:\nD7
+nodo6[label="{EO: 6|cost: 2.0|A: GoD8|
+Posicion\nAgente:\nD7
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo13[label="{EO: 13|cost: 3.0|A: GoA8|Posicion:\nD8
+nodo15[label="{EO: 15|cost: 3.0|A: GoA8|
+Posicion\nAgente:\nD8
+Costo\nAcumulado:\n9.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-
-nodo6 -> nodo13;
-nodo14[label="{EO: 14|cost: 3.0|A: GoD9|Posicion:\nD8
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
 
-nodo6 -> nodo14;
+nodo6 -> nodo15;
+nodo16[label="{EO: 16|cost: 3.0|A: GoD9|
+Posicion\nAgente:\nD8
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo6 -> nodo16;
 
 nodo3 -> nodo6;
-nodo7[label="{EO: 7|cost: 2.0|A: GoE7|Posicion:\nD7
+nodo7[label="{EO: 7|cost: 2.0|A: GoE7|
+Posicion\nAgente:\nD7
+Costo\nAcumulado:\n7.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
-nodo15[label="{EO: 15|cost: 3.0|A: GoE6|Posicion:\nE7
+nodo17[label="{EO: 17|cost: 3.0|A: GoE6|
+Posicion\nAgente:\nE7
+Costo\nAcumulado:\n9.0
 Infectados:\n0
-Escapados:\n
-posicion:\nA9
-}"]
-
-nodo7 -> nodo15;
-nodo16[label="{EO: 16|cost: 3.0|A: GoF7|Posicion:\nE7
-Infectados:\n0
-Escapados:\n
-posicion:\nA9
+Escapados:\n1
+	posicion:\nA9
 }"]
 
-nodo7 -> nodo16;
+nodo7 -> nodo17;
+nodo18[label="{EO: 18|cost: 3.0|A: GoF7|
+Posicion\nAgente:\nE7
+Costo\nAcumulado:\n9.0
+Infectados:\n0
+Escapados:\n1
+	posicion:\nA9
+}"]
+
+nodo7 -> nodo18;
 
 nodo3 -> nodo7;
 

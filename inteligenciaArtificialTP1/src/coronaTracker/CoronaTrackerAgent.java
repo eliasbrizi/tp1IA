@@ -26,7 +26,10 @@ import frsf.cidisi.faia.agent.Action;
 import frsf.cidisi.faia.agent.Perception;
 import frsf.cidisi.faia.solver.search.BreathFirstSearch;
 import frsf.cidisi.faia.solver.search.DepthFirstSearch;
+import frsf.cidisi.faia.solver.search.IStepCostFunction;
 import frsf.cidisi.faia.solver.search.Search;
+import frsf.cidisi.faia.solver.search.UniformCostSearch;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import coronaTracker.actions.*;
@@ -46,7 +49,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoA1());
         actions.addElement(new GoA2());
         actions.addElement(new GoA3());
-//        actions.addElement(new GoA4());
         actions.addElement(new GoA5());
         actions.addElement(new GoA6());
         actions.addElement(new GoA7());
@@ -55,41 +57,16 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoA10());
         actions.addElement(new GoA11());
         actions.addElement(new GoA12());
-//        actions.addElement(new GoA13());
         actions.addElement(new GoA14());
         actions.addElement(new GoA15());
         actions.addElement(new GoA16());
         actions.addElement(new GoA17());
-        // actions.addElement(new GoB1());
-        // actions.addElement(new GoB2());
-        // actions.addElement(new GoB3());
-        // actions.addElement(new GoB4());
-        // actions.addElement(new GoB5());
-        // actions.addElement(new GoB6());
-        // actions.addElement(new GoB7());
-        // actions.addElement(new GoB8());
-        // actions.addElement(new GoB9());
-        // actions.addElement(new GoB10());
-        // actions.addElement(new GoB11());
-        // actions.addElement(new GoB12());
-        // actions.addElement(new GoB13());
-        // actions.addElement(new GoB14());
         actions.addElement(new GoB15());
         actions.addElement(new GoB16());
         actions.addElement(new GoB17());
-        // actions.addElement(new GoC1());
-        // actions.addElement(new GoC2());
-        // actions.addElement(new GoC3());
-        // actions.addElement(new GoC4());
-        // actions.addElement(new GoC5());
-        // actions.addElement(new GoC6());
-        // actions.addElement(new GoC7());
-        // actions.addElement(new GoC8());
-        // actions.addElement(new GoC9());
         actions.addElement(new GoC10());
         actions.addElement(new GoC11());
         actions.addElement(new GoC12());
-        // actions.addElement(new GoC13());
         actions.addElement(new GoC14());
         actions.addElement(new GoC15());
         actions.addElement(new GoC16());
@@ -97,7 +74,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoD1());
         actions.addElement(new GoD2());
         actions.addElement(new GoD3());
-        // actions.addElement(new GoD4());
         actions.addElement(new GoD5());
         actions.addElement(new GoD6());
         actions.addElement(new GoD7());
@@ -114,7 +90,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoE1());
         actions.addElement(new GoE2());
         actions.addElement(new GoE3());
-        // actions.addElement(new GoE4());
         actions.addElement(new GoE5());
         actions.addElement(new GoE6());
         actions.addElement(new GoE7());
@@ -145,23 +120,8 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoF15());
         actions.addElement(new GoF16());
         actions.addElement(new GoF17());
-        // actions.addElement(new GoG1());
-        // actions.addElement(new GoG2());
-        // actions.addElement(new GoG3());
-        // actions.addElement(new GoG4());
-        // actions.addElement(new GoG5());
         actions.addElement(new GoG6());
         actions.addElement(new GoG7());
-        // actions.addElement(new GoG8());
-        // actions.addElement(new GoG9());
-        // actions.addElement(new GoG10());
-        // actions.addElement(new GoG11());
-        // actions.addElement(new GoG12());
-        // actions.addElement(new GoG13());
-        // actions.addElement(new GoG14());
-        // actions.addElement(new GoG15());
-        // actions.addElement(new GoG16());
-        // actions.addElement(new GoG17());
         actions.addElement(new GoH1());
         actions.addElement(new GoH2());
         actions.addElement(new GoH3());
@@ -182,7 +142,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoI1());
         actions.addElement(new GoI2());
         actions.addElement(new GoI3());
-        // actions.addElement(new GoI4());
         actions.addElement(new GoI5());
         actions.addElement(new GoI6());
         actions.addElement(new GoI7());
@@ -199,7 +158,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoJ1());
         actions.addElement(new GoJ2());
         actions.addElement(new GoJ3());
-        // actions.addElement(new GoJ4());
         actions.addElement(new GoJ5());
         actions.addElement(new GoJ6());
         actions.addElement(new GoJ7());
@@ -208,15 +166,11 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoJ10());
         actions.addElement(new GoJ11());
         actions.addElement(new GoJ12());
-        // actions.addElement(new GoJ13());
         actions.addElement(new GoJ14());
         actions.addElement(new GoJ15());
-        // actions.addElement(new GoJ16());
-        // actions.addElement(new GoJ17());
         actions.addElement(new GoK1());
         actions.addElement(new GoK2());
         actions.addElement(new GoK3());
-        // actions.addElement(new GoK4());
         actions.addElement(new GoK5());
         actions.addElement(new GoK6());
         actions.addElement(new GoK7());
@@ -225,15 +179,10 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoK10());
         actions.addElement(new GoK11());
         actions.addElement(new GoK12());
-        // actions.addElement(new GoK13());
         actions.addElement(new GoK14());
-        // actions.addElement(new GoK15());
-        // actions.addElement(new GoK16());
-        // actions.addElement(new GoK17());
         actions.addElement(new GoL1());
         actions.addElement(new GoL2());
         actions.addElement(new GoL3());
-        // actions.addElement(new GoL4());
         actions.addElement(new GoL5());
         actions.addElement(new GoL6());
         actions.addElement(new GoL7());
@@ -241,16 +190,9 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoL9());
         actions.addElement(new GoL10());
         actions.addElement(new GoL11());
-        // actions.addElement(new GoL12());
-        // actions.addElement(new GoL13());
-        // actions.addElement(new GoL14());
-        // actions.addElement(new GoL15());
-        // actions.addElement(new GoL16());
-        // actions.addElement(new GoL17());
         actions.addElement(new GoM1());
         actions.addElement(new GoM2());
         actions.addElement(new GoM3());
-        // actions.addElement(new GoM4());
         actions.addElement(new GoM5());
         actions.addElement(new GoM6());
         actions.addElement(new GoM7());
@@ -259,7 +201,6 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
         actions.addElement(new GoM10());
         actions.addElement(new GoM11());
         actions.addElement(new GoM12());
-        // actions.addElement(new GoM13());
         actions.addElement(new GoM14());
         actions.addElement(new GoM15());
         actions.addElement(new GoM16());
@@ -274,9 +215,12 @@ public class CoronaTrackerAgent extends SearchBasedAgent {
     @Override
     public Action selectAction() {
         // Breath first strategy
-        BreathFirstSearch searchStrategy = new BreathFirstSearch();
+     BreathFirstSearch searchStrategy = new BreathFirstSearch();
 //        DepthFirstSearch searchStrategy = new DepthFirstSearch();
-
+         
+//         IStepCostFunction costFunction = new CostFunction();
+//         UniformCostSearch searchStrategy = new UniformCostSearch(costFunction);
+        
         Search searchSolver = new Search(searchStrategy);
 
         // Set the search tree to be written in an XML file

@@ -18,8 +18,10 @@ public class GoK12 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.K12);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.K12))) {
-              agentState.setPosition(CoronaTrackerAgentState.K12);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.K12);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... K12");
+               return agentState;
          }
    }
      return null;

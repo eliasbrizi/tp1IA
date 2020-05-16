@@ -18,8 +18,10 @@ public class GoB15 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.B15);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.B15))) {
-              agentState.setPosition(CoronaTrackerAgentState.B15);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.B15);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... B15");
+               return agentState;
          }
    }
      return null;

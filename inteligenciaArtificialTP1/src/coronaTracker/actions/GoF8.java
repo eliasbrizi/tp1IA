@@ -18,8 +18,10 @@ public class GoF8 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.F8);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.F8))) {
-              agentState.setPosition(CoronaTrackerAgentState.F8);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.F8);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... F8");
+               return agentState;
          }
    }
      return null;

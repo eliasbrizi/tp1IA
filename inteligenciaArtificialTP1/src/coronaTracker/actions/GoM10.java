@@ -18,8 +18,10 @@ public class GoM10 extends SearchAction {
       if (successors != null) {
           int index = successors.indexOf(CoronaTrackerAgentState.M10);
           if (index >= 0 && !agentState.getCaminosCortados().contains(new Camino(agentState.getPosition(),CoronaTrackerAgentState.M10))) {
-              agentState.setPosition(CoronaTrackerAgentState.M10);
-           return agentState;
+               agentState.setPosition(CoronaTrackerAgentState.M10);
+               agentState.setCostCount(agentState.getCostCount() + this.getCost());
+//               System.out.println("working... M10");
+               return agentState;
          }
    }
      return null;
